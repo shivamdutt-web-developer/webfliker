@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.next/
+node_modules/
+crawl_progress_db.json
+*.log
+.DS_Store
+Thumbs.db

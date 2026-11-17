@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 48" width="230" height="48" fill="none">
+  <defs>
+    <linearGradient id="wfGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b39" />
+      <stop offset="50%" stop-color="#ff5e1e" />
+      <stop offset="100%" stop-color="#d93800" />
+    </linearGradient>
+    <linearGradient id="wfGradDark2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9153" />
+      <stop offset="100%" stop-color="#ff5e1e" />
+    </linearGradient>
+    <filter id="wfGlowDark" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#ff5e1e" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- LOGO ICON MARK (Dynamic 3D Hex Monogram) -->
+  <g transform="translate(4, 4)" filter="url(#wfGlowDark)">
+    <path d="M20 2 L38 12 L38 30 L20 40 L2 30 L2 12 Z" fill="#0f172a" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+    <path d="M20 2 L38 12 L20 22 L2 12 Z" fill="#ff7b39" opacity="0.95" />
+    <path d="M20 22 L38 12 L38 30 L20 40 Z" fill="url(#wfGradDark)" />
+    <path d="M11 17 L20 27 L29 17 L33 22 L20 35 L7 22 Z" fill="#ffffff" opacity="0.95" />
+  </g>
+
+  <!-- LOGO TYPOGRAPHY (Pure White WEB for dark backgrounds + Orange FLIKR) -->
+  <g transform="translate(54, 33)">
+    <text font-family="'Space Grotesk', 'Plus Jakarta Sans', -apple-system, sans-serif" font-size="25" font-weight="800" letter-spacing="-0.8" fill="#ffffff">WEB</text>
+    <text x="56" font-family="'Space Grotesk', 'Plus Jakarta Sans', -apple-system, sans-serif" font-size="25" font-weight="800" letter-spacing="-0.8" fill="url(#wfGradDark)">FLIKR</text>
+    <circle cx="137" cy="-7" r="4" fill="#ff5e1e" />
+  </g>
+</svg>

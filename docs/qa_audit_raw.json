@@ -1,0 +1,531 @@
+{
+  "total_pages_discovered": 47,
+  "total_pages_tested": 47,
+  "passed_pages": [
+    {
+      "page": "about-us.html",
+      "status": 200,
+      "title": "About Us | WEBFLIKR (PageTraffic Heritage + 3D Innovation)"
+    },
+    {
+      "page": "about.html",
+      "status": 200,
+      "title": "Who We Are | WEBFLIKR - The 3D Digital & Search Engine Agency"
+    },
+    {
+      "page": "ai-seo.html",
+      "status": 200,
+      "title": "AI SEO & Answer Engine Optimization (AEO) | WEBFLIKR"
+    },
+    {
+      "page": "app-store-optimization.html",
+      "status": 200,
+      "title": "App Store Optimization (ASO) Services | WEBFLIKR"
+    },
+    {
+      "page": "benefits.html",
+      "status": 200,
+      "title": "Employee Benefits & Perks | WEBFLIKR"
+    },
+    {
+      "page": "blog.html",
+      "status": 200,
+      "title": "Resources & Blog | WEBFLIKR - SEO Tactics, AI Search & 3D Engineering"
+    },
+    {
+      "page": "career.html",
+      "status": 200,
+      "title": "Careers at Webflikr | Join Our Team"
+    },
+    {
+      "page": "case-studies.html",
+      "status": 200,
+      "title": "Case Studies & Success Stories | WEBFLIKR"
+    },
+    {
+      "page": "current-openings.html",
+      "status": 200,
+      "title": "Current Job Openings | WEBFLIKR Careers (We're Hiring!)"
+    },
+    {
+      "page": "ecommerce-seo-plans.html",
+      "status": 200,
+      "title": "Ecommerce SEO Plans & Packages | WEBFLIKR"
+    },
+    {
+      "page": "ecommerce-seo.html",
+      "status": 200,
+      "title": "Ecommerce SEO Services for Shopify, WooCommerce & Headless | WEBFLIKR"
+    },
+    {
+      "page": "ecommerce-website-design.html",
+      "status": 200,
+      "title": "Ecommerce Website Design | WEBFLIKR"
+    },
+    {
+      "page": "enterprise-seo.html",
+      "status": 200,
+      "title": "Enterprise SEO Services for Large-Scale Websites & Global Brands | WEBFLIKR"
+    },
+    {
+      "page": "events.html",
+      "status": 200,
+      "title": "Industry Events & Conferences | WEBFLIKR"
+    },
+    {
+      "page": "featured-clients.html",
+      "status": 200,
+      "title": "Featured Clients | WEBFLIKR Portfolio"
+    },
+    {
+      "page": "free-guides.html",
+      "status": 200,
+      "title": "Free Digital Marketing & SEO Guides | WEBFLIKR"
+    },
+    {
+      "page": "get-a-proposal.html",
+      "status": 200,
+      "title": "Get a Proposal | WEBFLIKR (SEO, PPC & 3D Web Development)"
+    },
+    {
+      "page": "index.html",
+      "status": 200,
+      "title": "WEBFLIKR | Next-Gen 3D Creative, SEO & Performance Marketing Agency"
+    },
+    {
+      "page": "life-at-webflikr.html",
+      "status": 200,
+      "title": "Life at Webflikr | Culture & Careers"
+    },
+    {
+      "page": "local-seo-plans.html",
+      "status": 200,
+      "title": "Google Map Local SEO Plans | WEBFLIKR"
+    },
+    {
+      "page": "media-coverages.html",
+      "status": 200,
+      "title": "Media Coverages & Press Mentions | WEBFLIKR"
+    },
+    {
+      "page": "our-locations.html",
+      "status": 200,
+      "title": "Our Locations (Global Presence) | WEBFLIKR"
+    },
+    {
+      "page": "our-story.html",
+      "status": 200,
+      "title": "Our Story | WEBFLIKR Agency Journey"
+    },
+    {
+      "page": "our-team.html",
+      "status": 200,
+      "title": "Our Team | WEBFLIKR Specialists"
+    },
+    {
+      "page": "our-values.html",
+      "status": 200,
+      "title": "Our Values & Principles | WEBFLIKR"
+    },
+    {
+      "page": "plans.html",
+      "status": 200,
+      "title": "Plans & Packages | WEBFLIKR - Digital Marketing & SEO Pricing"
+    },
+    {
+      "page": "ppc-plans.html",
+      "status": 200,
+      "title": "PPC Plans & Packages | WEBFLIKR"
+    },
+    {
+      "page": "ppc-services.html",
+      "status": 200,
+      "title": "Paid Advertising (PPC) Services | WEBFLIKR"
+    },
+    {
+      "page": "presentations.html",
+      "status": 200,
+      "title": "Presentations & Slide Decks | WEBFLIKR"
+    },
+    {
+      "page": "recruitment-process.html",
+      "status": 200,
+      "title": "Recruitment Process | WEBFLIKR Careers"
+    },
+    {
+      "page": "reviews.html",
+      "status": 200,
+      "title": "Client Reviews & Ratings | WEBFLIKR"
+    },
+    {
+      "page": "seo-awards.html",
+      "status": 200,
+      "title": "SEO Awards & Industry Recognition | WEBFLIKR"
+    },
+    {
+      "page": "seo-plans.html",
+      "status": 200,
+      "title": "SEO Plans & Packages (India & Global) | WEBFLIKR"
+    },
+    {
+      "page": "seo-results.html",
+      "status": 200,
+      "title": "SEO Results & Case Metrics | WEBFLIKR"
+    },
+    {
+      "page": "seo-services.html",
+      "status": 200,
+      "title": "SEO Services to Drive Leads & Sales | WEBFLIKR (India & Global)"
+    },
+    {
+      "page": "services.html",
+      "status": 200,
+      "title": "Services | WEBFLIKR - Digital Marketing & 3D Web Engineering"
+    },
+    {
+      "page": "social-media-marketing.html",
+      "status": 200,
+      "title": "Social Media Marketing Services | WEBFLIKR"
+    },
+    {
+      "page": "social-media-plans.html",
+      "status": 200,
+      "title": "Social Media Marketing Plans | WEBFLIKR"
+    },
+    {
+      "page": "testimonials.html",
+      "status": 200,
+      "title": "Client Testimonials & Reviews | WEBFLIKR"
+    },
+    {
+      "page": "thought-leadership.html",
+      "status": 200,
+      "title": "Thought Leadership | WEBFLIKR Insights"
+    },
+    {
+      "page": "web-design-portfolio.html",
+      "status": 200,
+      "title": "Web Design Portfolio | WEBFLIKR 3D Showcase"
+    },
+    {
+      "page": "webinars.html",
+      "status": 200,
+      "title": "Expert Webinars & Masterclasses | WEBFLIKR"
+    },
+    {
+      "page": "website-designing.html",
+      "status": 200,
+      "title": "Website Designing & UI/UX Services | WEBFLIKR"
+    },
+    {
+      "page": "website-redesign.html",
+      "status": 200,
+      "title": "Website Redesign Services | WEBFLIKR"
+    }
+  ],
+  "failed_pages": [
+    {
+      "page": "admin-login.html",
+      "status": 200,
+      "title": "WEBFLIKR CMS | Secure Client Admin Portal",
+      "has_h1": true,
+      "has_header": false,
+      "has_footer": false
+    },
+    {
+      "page": "admin.html",
+      "status": 200,
+      "title": "",
+      "has_h1": false,
+      "has_header": false,
+      "has_footer": false
+    },
+    {
+      "page": "wp-admin.html",
+      "status": 200,
+      "title": "Loading http://localhost:3000/admin-login.html",
+      "has_h1": false,
+      "has_header": false,
+      "has_footer": false
+    }
+  ],
+  "broken_links": [
+    {
+      "source_page": "index.html",
+      "broken_link": "privacy-policy.html"
+    },
+    {
+      "source_page": "index.html",
+      "broken_link": "terms.html"
+    }
+  ],
+  "broken_images": [],
+  "console_errors": {
+    "about.html": [
+      "[error] Failed to load resource: the server responded with a status of 404 (File not found)"
+    ]
+  },
+  "failed_requests": {},
+  "responsive_issues": [
+    {
+      "page": "index.html",
+      "viewport": 320,
+      "overflow_pixels": 790,
+      "doc_width": 1110,
+      "viewport_width": 320
+    },
+    {
+      "page": "index.html",
+      "viewport": 375,
+      "overflow_pixels": 735,
+      "doc_width": 1110,
+      "viewport_width": 375
+    },
+    {
+      "page": "index.html",
+      "viewport": 390,
+      "overflow_pixels": 720,
+      "doc_width": 1110,
+      "viewport_width": 390
+    },
+    {
+      "page": "index.html",
+      "viewport": 430,
+      "overflow_pixels": 680,
+      "doc_width": 1110,
+      "viewport_width": 430
+    },
+    {
+      "page": "index.html",
+      "viewport": 768,
+      "overflow_pixels": 342,
+      "doc_width": 1110,
+      "viewport_width": 768
+    },
+    {
+      "page": "index.html",
+      "viewport": 1024,
+      "overflow_pixels": 86,
+      "doc_width": 1110,
+      "viewport_width": 1024
+    },
+    {
+      "page": "seo-services.html",
+      "viewport": 320,
+      "overflow_pixels": 644,
+      "doc_width": 964,
+      "viewport_width": 320
+    },
+    {
+      "page": "seo-services.html",
+      "viewport": 375,
+      "overflow_pixels": 589,
+      "doc_width": 964,
+      "viewport_width": 375
+    },
+    {
+      "page": "seo-services.html",
+      "viewport": 390,
+      "overflow_pixels": 574,
+      "doc_width": 964,
+      "viewport_width": 390
+    },
+    {
+      "page": "seo-services.html",
+      "viewport": 430,
+      "overflow_pixels": 534,
+      "doc_width": 964,
+      "viewport_width": 430
+    },
+    {
+      "page": "seo-services.html",
+      "viewport": 768,
+      "overflow_pixels": 196,
+      "doc_width": 964,
+      "viewport_width": 768
+    },
+    {
+      "page": "ecommerce-seo.html",
+      "viewport": 320,
+      "overflow_pixels": 644,
+      "doc_width": 964,
+      "viewport_width": 320
+    },
+    {
+      "page": "ecommerce-seo.html",
+      "viewport": 375,
+      "overflow_pixels": 589,
+      "doc_width": 964,
+      "viewport_width": 375
+    },
+    {
+      "page": "ecommerce-seo.html",
+      "viewport": 390,
+      "overflow_pixels": 574,
+      "doc_width": 964,
+      "viewport_width": 390
+    },
+    {
+      "page": "ecommerce-seo.html",
+      "viewport": 430,
+      "overflow_pixels": 534,
+      "doc_width": 964,
+      "viewport_width": 430
+    },
+    {
+      "page": "ecommerce-seo.html",
+      "viewport": 768,
+      "overflow_pixels": 196,
+      "doc_width": 964,
+      "viewport_width": 768
+    },
+    {
+      "page": "plans.html",
+      "viewport": 320,
+      "overflow_pixels": 644,
+      "doc_width": 964,
+      "viewport_width": 320
+    },
+    {
+      "page": "plans.html",
+      "viewport": 375,
+      "overflow_pixels": 589,
+      "doc_width": 964,
+      "viewport_width": 375
+    },
+    {
+      "page": "plans.html",
+      "viewport": 390,
+      "overflow_pixels": 574,
+      "doc_width": 964,
+      "viewport_width": 390
+    },
+    {
+      "page": "plans.html",
+      "viewport": 430,
+      "overflow_pixels": 534,
+      "doc_width": 964,
+      "viewport_width": 430
+    },
+    {
+      "page": "plans.html",
+      "viewport": 768,
+      "overflow_pixels": 196,
+      "doc_width": 964,
+      "viewport_width": 768
+    },
+    {
+      "page": "case-studies.html",
+      "viewport": 320,
+      "overflow_pixels": 644,
+      "doc_width": 964,
+      "viewport_width": 320
+    },
+    {
+      "page": "case-studies.html",
+      "viewport": 375,
+      "overflow_pixels": 589,
+      "doc_width": 964,
+      "viewport_width": 375
+    },
+    {
+      "page": "case-studies.html",
+      "viewport": 390,
+      "overflow_pixels": 574,
+      "doc_width": 964,
+      "viewport_width": 390
+    },
+    {
+      "page": "case-studies.html",
+      "viewport": 430,
+      "overflow_pixels": 534,
+      "doc_width": 964,
+      "viewport_width": 430
+    },
+    {
+      "page": "case-studies.html",
+      "viewport": 768,
+      "overflow_pixels": 196,
+      "doc_width": 964,
+      "viewport_width": 768
+    },
+    {
+      "page": "get-a-proposal.html",
+      "viewport": 320,
+      "overflow_pixels": 644,
+      "doc_width": 964,
+      "viewport_width": 320
+    },
+    {
+      "page": "get-a-proposal.html",
+      "viewport": 375,
+      "overflow_pixels": 589,
+      "doc_width": 964,
+      "viewport_width": 375
+    },
+    {
+      "page": "get-a-proposal.html",
+      "viewport": 390,
+      "overflow_pixels": 574,
+      "doc_width": 964,
+      "viewport_width": 390
+    },
+    {
+      "page": "get-a-proposal.html",
+      "viewport": 430,
+      "overflow_pixels": 534,
+      "doc_width": 964,
+      "viewport_width": 430
+    },
+    {
+      "page": "get-a-proposal.html",
+      "viewport": 768,
+      "overflow_pixels": 196,
+      "doc_width": 964,
+      "viewport_width": 768
+    }
+  ],
+  "interactive_results": {
+    "3d_studio_tabs": {
+      "status": "PASS",
+      "ecom_title": "3D ECOMMERCE ORGANIC GMV ENGINE",
+      "serp_title": "3D GLOBAL GOOGLE SERP COMMAND CENTER",
+      "geo_title": "3D GENERATIVE ENGINE CITATION CORE (GEO)"
+    },
+    "before_after_slider": {
+      "status": "PASS",
+      "initial_width": "",
+      "dragged_width": ""
+    },
+    "proposal_modal": {
+      "status": "CHECK",
+      "visible": false
+    },
+    "faq_accordion": {
+      "status": "NOT FOUND"
+    }
+  },
+  "accessibility_issues": {
+    "index.html": {
+      "imgsWithoutAlt": 0,
+      "buttonsWithoutText": 0,
+      "inputsWithoutLabel": 13
+    }
+  },
+  "screenshots_captured": [
+    "docs\\screenshots\\desktop_case-studies.png",
+    "docs\\screenshots\\desktop_ecommerce-seo.png",
+    "docs\\screenshots\\desktop_get-a-proposal.png",
+    "docs\\screenshots\\desktop_index.png",
+    "docs\\screenshots\\desktop_our-locations.png",
+    "docs\\screenshots\\desktop_our-story.png",
+    "docs\\screenshots\\desktop_plans.png",
+    "docs\\screenshots\\desktop_seo-services.png",
+    "docs\\screenshots\\mobile_375px_index.png",
+    "docs\\screenshots\\mobile_375px_seo-services.png",
+    "docs\\screenshots\\mobile_375px_ecommerce-seo.png",
+    "docs\\screenshots\\mobile_375px_plans.png",
+    "docs\\screenshots\\mobile_375px_case-studies.png",
+    "docs\\screenshots\\mobile_375px_get-a-proposal.png"
+  ]
+}

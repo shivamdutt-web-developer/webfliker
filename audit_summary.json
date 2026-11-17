@@ -1,0 +1,1008 @@
+{
+  "about-us.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "We Are Webflikr: Engineering Search Dominance",
+      "Helping Businesses Get New Customers Everyday",
+      "Our Story: Where Did It All Begin?",
+      "NO_HEADING",
+      "Our Values That Drive Every Sprint",
+      "Our Strategic Global Delivery Hubs",
+      "Write The Next Chapter Of Your Brand's Digita"
+    ]
+  },
+  "about.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Built on Search Authority. Powered by 3D Tech",
+      "Pioneering Search & Design Since Day One",
+      "Leadership & Growth Directors",
+      "Our Presence & Locations",
+      "The Foundation of Our Search Authority",
+      "Honored by the World's Leading Tech & Search ",
+      "Ready to Transform Your Digital Trajectory?"
+    ]
+  },
+  "admin-login.html": {
+    "sections_count": 0,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [
+      "Failed to load resource: the server responded with a status of 404 (File not found)"
+    ],
+    "bad_terms": [],
+    "mobile_toggle": false,
+    "headings": []
+  },
+  "admin.html": {
+    "sections_count": 0,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": false,
+    "headings": []
+  },
+  "ai-seo.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "AI SEO: Get Cited by ChatGPT, Google Gemini &",
+      "NO_HEADING",
+      "The 6 Pillars of AI Engine Optimization (GEO)",
+      "Traditional SEO vs. AI Engine Optimization (G",
+      "Generative Engine Optimization Plans",
+      "Generative AI Search Questions & Answers",
+      "Is Your Brand Ready for Conversational AI Sea"
+    ]
+  },
+  "app-store-optimization.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "App Store Optimization Services India & Globa",
+      "NO_HEADING",
+      "Included in Our App Store Optimization Servic",
+      "Our Process of App Store Optimization",
+      "Frequently Asked Questions for ASO Services",
+      "Request a Free App Store Optimization Audit"
+    ]
+  },
+  "benefits.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Benefits & Perks Engineered to Support Your B",
+      "Complete Health & Family Security",
+      "Best-in-Class Hardware & Tools",
+      "Continuous Professional Elevation",
+      "True Flexibility & Generous Leave Policy",
+      "Employee Benefits FAQs",
+      "Ready to Join a Workplace That Invests in You"
+    ]
+  },
+  "blog.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "The Webflikr Blog: Algorithmic Teardowns & Gr",
+      "Featured Algorithmic Teardown",
+      "Browse Articles By Specialization",
+      "Recent Engineering & Strategy Articles",
+      "Join 35,000+ Growth Directors Receiving Our W",
+      "Want Our Engineering Directors To Audit Your "
+    ]
+  },
+  "career.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Build High-Impact Digital Experiences With th",
+      "Why Top Engineers & Marketers Choose Webflikr",
+      "Currently Hiring Across Squads",
+      "A Fast, Transparent Hiring Journey",
+      "Employee Benefits & Well-Being",
+      "Careers & Interview FAQs",
+      "Ready to Do The Best Work of Your Career?"
+    ]
+  },
+  "case-studies.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Documented Growth Stories: How We Scaled Glob",
+      "Danetti UK: +340% Organic Revenue Growth in 1",
+      "Shanti Gopal Hospital: 280% Patient Appointme",
+      "FinFlow SaaS: $14M Organic Enterprise Pipelin",
+      "Explore More Industry Breakdowns",
+      "How We Architect Your Growth Plan",
+      "Case Studies & Validation FAQs",
+      "Ready to Scale Your Brand\u2019s Organic Pipeline "
+    ]
+  },
+  "current-openings.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Current Job Openings: Find Your Next Growth C",
+      "Open Positions Across Squads",
+      "Our 14-Day Hiring Commitment",
+      "Transparent & Competitive Compensation",
+      "Don't See Your Exact Role? Apply Speculativel",
+      "Application FAQs",
+      "Join Our Collective of Search & 3D Web Pionee"
+    ]
+  },
+  "ecommerce-seo-plans.html": {
+    "sections_count": 10,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Ecommerce SEO Plans: Attract High-Value Buyer",
+      "NO_HEADING",
+      "Attract Customer Traffic & Grow Sales With Ou",
+      "Why Webflikr\u2019s eCommerce SEO?",
+      "Quantifiable Benefits Of Our eCommerce Plans",
+      "Ecommerce Platforms & CMS We Optimize",
+      "Our 5-Stage Technical eCommerce Process",
+      "Compare eCommerce SEO Plans & Pricing",
+      "Ecommerce SEO Plans FAQs",
+      "Claim Your Free eCommerce Catalog & Crawl Aud"
+    ]
+  },
+  "ecommerce-seo.html": {
+    "sections_count": 10,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Ecommerce SEO Services for Shopify, WooCommer",
+      "NO_HEADING",
+      "The 6 Pillars of E-Commerce Organic Growth",
+      "Proven E-Commerce Revenue Case Studies",
+      "Dedicated E-Commerce SEO Retainers",
+      "E-Commerce Search Engineering FAQs",
+      "Our Proprietary 4-Fold Search Focus.",
+      "Strategic Retainer vs. Transactional Hired Ve",
+      "Our Strategic Global Delivery Hubs",
+      "Ready to Grow Your E-Commerce Revenue? Let's "
+    ]
+  },
+  "ecommerce-website-design.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Ecommerce Website Design & Development Servic",
+      "NO_HEADING",
+      "Ecommerce Web Design Services Customized For ",
+      "Recent E-Commerce Flagships",
+      "Included in Our Ecommerce Website Design",
+      "Our Ecommerce Website Design Process",
+      "Frequently Asked Questions for Ecommerce Web ",
+      "Request a Free E-Commerce Consultation"
+    ]
+  },
+  "enterprise-seo.html": {
+    "sections_count": 10,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Enterprise SEO Services for Scaled Platforms ",
+      "NO_HEADING",
+      "The 6 Pillars of Enterprise Search Governance",
+      "Institutional-Grade Search Intelligence",
+      "Case Study: Global B2B SaaS Enterprise Scale",
+      "Enterprise Search FAQs",
+      "Our Proprietary 4-Fold Search Focus.",
+      "Strategic Retainer vs. Transactional Hired Ve",
+      "Our Strategic Global Delivery Hubs",
+      "Ready to Scale Your Enterprise Organic Domina"
+    ]
+  },
+  "events.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Global Search Summits, Workshops & Executive ",
+      "Beyond Search Summit 2027",
+      "Upcoming Events Calendar",
+      "Invite a Webflikr Director to Speak at Your C",
+      "Past Summit Highlights",
+      "Event Registration FAQs",
+      "Meet Our Leadership Team At The Next Summit"
+    ]
+  },
+  "featured-clients.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Trusted by 500+ Market Leaders Across 32 Coun",
+      "NO_HEADING",
+      "Proven Client Success Across High-Stakes Glob",
+      "The 4 Operational Pillars Behind Our 97.4% Cl",
+      "What C-Suite Executives Say About Partnering ",
+      "Empowering Brands Across Every Continental Ti",
+      "Enterprise Client FAQs",
+      "Ready to Join 500+ Market Leaders Dominating "
+    ]
+  },
+  "free-guides.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Enterprise Search & 3D Web Guides Authored by",
+      "The Enterprise AI Search & SGE Playbook",
+      "Actionable Guides & Checklists",
+      "Ready-to-Use Spreadsheets & Templates",
+      "Get New Research Delivered First",
+      "Guides & Resources FAQs",
+      "Need Expert Execution Beyond the Guide?"
+    ]
+  },
+  "get-a-proposal.html": {
+    "sections_count": 0,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": []
+  },
+  "headless-ecommerce.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Ecommerce Website Design & Development Servic",
+      "NO_HEADING",
+      "Ecommerce Web Design Services Customized For ",
+      "Recent E-Commerce Flagships",
+      "Included in Our Ecommerce Website Design",
+      "Our Ecommerce Website Design Process",
+      "Frequently Asked Questions for Ecommerce Web ",
+      "Request a Free E-Commerce Consultation"
+    ]
+  },
+  "life-at-webflikr.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Life at Webflikr: Where Passion Meets World-C",
+      "The 4 Pillars of Life at Webflikr",
+      "Spaces Designed for Focus & Collaboration",
+      "In Their Own Words",
+      "Annual Global Retreats & Celebrations",
+      "Culture & Work Life FAQs",
+      "Ready to Be Part of an Exceptional Digital Te"
+    ]
+  },
+  "link-building.html": {
+    "sections_count": 11,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "SEO Services to Drive Inbound Leads & Sales",
+      "NO_HEADING",
+      "NO_HEADING",
+      "The Focus of Webflikr SEO Services is Four-Fo",
+      "What's Included in Our Ongoing SEO Services?",
+      "SEO Services with Clear Focus on Performance",
+      "Frequently Asked Questions About Our SEO Serv",
+      "Our Proprietary 4-Fold Search Focus.",
+      "Strategic Retainer vs. Transactional Hired Ve",
+      "Our Strategic Global Delivery Hubs",
+      "Ready to Grow Your Business with SEO? Let's T"
+    ]
+  },
+  "local-seo-plans.html": {
+    "sections_count": 10,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Google Maps Local SEO Plans: Capture High-Int",
+      "NO_HEADING",
+      "Why Does Your Business Need Local SEO?",
+      "How Ranking On Google Maps Can Help You",
+      "Why Choose Webflikr For Google Maps SEO?",
+      "How Shanti Gopal Hospital Captured 80% Local ",
+      "Our Battle-Tested Local Maps SEO Process",
+      "Compare Google Maps Local SEO Plans",
+      "Google Maps & Local SEO FAQs",
+      "Claim Your Free Google Maps Competitor Heatma"
+    ]
+  },
+  "media-coverages.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Webflikr in the News: Leading the Search & 3D",
+      "NO_HEADING",
+      "Featured Media Stories",
+      "Official Media Kit & Brand Assets",
+      "Press & Media Inquiries FAQs",
+      "Connect With Our Media Relations Team"
+    ]
+  },
+  "our-locations.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Worldwide Engineering Centers & Strategic Cli",
+      "Our Worldwide Locations",
+      "24-Hour Continuous Sprints",
+      "Enterprise-Grade Security & Technology",
+      "Schedule An In-Person Strategy Meeting",
+      "Can't Visit In Person? Connect With Our Direc",
+      "Office & Regional Operations FAQs",
+      "Connect With Webflikr In Your Local Time Zone"
+    ]
+  },
+  "our-story.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "The Webflikr Story: 20+ Years Of Defining Org",
+      "NO_HEADING",
+      "NO_HEADING",
+      "Our Journey: How We Got Here",
+      "Principles That Drive Every Webflikr Sprint",
+      "Write The Next Chapter Of Your Growth With We"
+    ]
+  },
+  "our-team.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Our Team Is What Makes Us Truly Extraordinary",
+      "How Our Team Stacks Up",
+      "The Specialized Pods Behind Every Sprint",
+      "Why Our Clients Hire Us",
+      "We Are Committed To Investing In Our People",
+      "Meet Our Executive Practice Directors",
+      "Put Our Specialized 120-Person Squad To Work "
+    ]
+  },
+  "our-values.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Our Core Values: The Unshakable Principles Be",
+      "The 11 Values We Live, Hire & Promote By",
+      "How These Values Shape Our Daily Engineering",
+      "Our 100% White-Hat Algorithmic Integrity Pled",
+      "Values & Agency Governance FAQs",
+      "Ready to Work With An Agency That Puts Princi"
+    ]
+  },
+  "plans.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Growth & Retainer Plans That Scale With You",
+      "NO_HEADING",
+      "Growth Starter SEO",
+      "Plans & Packages FAQs",
+      "Need a Custom Retainer Built for Your Growth ",
+      "Our Strategic Global Delivery Hubs"
+    ]
+  },
+  "ppc-plans.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Fully Managed PPC Plans: Eliminate Wasted Ad ",
+      "NO_HEADING",
+      "Why Choose Webflikr For PPC Services?",
+      "What Our PPC Plans Include",
+      "Ready To Grow Faster? Get Your Free PPC Audit",
+      "Compare Fully Managed PPC Plans",
+      "PPC Management Plans FAQs",
+      "Claim Your Free Confidential PPC Account Audi"
+    ]
+  },
+  "ppc-services.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Performance PPC Advertising (Google, Meta & L",
+      "NO_HEADING",
+      "The 6 Pillars of Predictable Paid Growth",
+      "PPC & Paid Media Retainer Tiers",
+      "PPC & Performance Advertising FAQs",
+      "Ready to Eliminate Wasted Ad Spend & Scale RO"
+    ]
+  },
+  "ppc.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Performance PPC Advertising (Google, Meta & L",
+      "NO_HEADING",
+      "The 6 Pillars of Predictable Paid Growth",
+      "PPC & Paid Media Retainer Tiers",
+      "PPC & Performance Advertising FAQs",
+      "Ready to Eliminate Wasted Ad Spend & Scale RO"
+    ]
+  },
+  "presentations.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Keynote Presentations & Board-Level Search Br",
+      "The State of Search 2026: From 10 Blue Links ",
+      "Keynote Decks by Subject",
+      "Request A Custom Briefing For Your Board or L",
+      "Presentation Citation & Attribution",
+      "Presentations FAQs",
+      "Transform Your Brand\u2019s Search Architecture"
+    ]
+  },
+  "privacy-policy.html": {
+    "sections_count": 2,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Privacy Policy",
+      "Global Locations: New Delhi \u2022 Mumbai \u2022 London"
+    ]
+  },
+  "recruitment-process.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Our Recruitment Process: Built on Respect, Sp",
+      "The 5 Steps from Candidate to Team Member",
+      "Core Evaluation Criteria",
+      "Tips for A Standout Webflikr Interview",
+      "Our Written Feedback Guarantee",
+      "Recruitment Process FAQs",
+      "Take the First Step Toward Your Next Big Achi"
+    ]
+  },
+  "reviews.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Verified Client Reviews: What Enterprise Lead",
+      "Client Reviews Across Disciplines",
+      "Independent Platform Ratings",
+      "Why 97.4% of Clients Stay",
+      "Want to Speak With an Existing Client?",
+      "Client Reviews FAQs",
+      "Ready to Experience Award-Winning Search Grow"
+    ]
+  },
+  "seo-awards.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Award-Winning Engineering & Search Authority ",
+      "NO_HEADING",
+      "Flagship Accolades & Trophies",
+      "Five Years of Continuous Excellence",
+      "Why These Accolades Matter to Clients",
+      "Featured Across Leading Digital Publications",
+      "Awards & Accolades FAQs",
+      "Build An Award-Winning Organic Engine for You"
+    ]
+  },
+  "seo-plans.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Guaranteed SEO Plans & Packages",
+      "Silver SEO Plan",
+      "Side-by-Side Package Comparison",
+      "Common Questions About Our Plans",
+      "What Makes SEO So Important to Businesses in ",
+      "Ready to Invest in Predictable Organic Scale?",
+      "Our Strategic Global Delivery Hubs"
+    ]
+  },
+  "seo-results.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Measurable Search Dominance & Verified Client",
+      "Representative Keyword Rank Movements",
+      "How Webflikr Verifies Search ROI",
+      "Average Performance by Industry",
+      "100% Traffic Retention During Major Google Up",
+      "Reporting & Accountability Cadence",
+      "Search Results & Timelines FAQs",
+      "Ready for Documented, Verifiable Search Resul"
+    ]
+  },
+  "seo-services.html": {
+    "sections_count": 11,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "SEO Services to Drive Inbound Leads & Sales",
+      "NO_HEADING",
+      "NO_HEADING",
+      "The Focus of Webflikr SEO Services is Four-Fo",
+      "What's Included in Our Ongoing SEO Services?",
+      "SEO Services with Clear Focus on Performance",
+      "Frequently Asked Questions About Our SEO Serv",
+      "Our Proprietary 4-Fold Search Focus.",
+      "Strategic Retainer vs. Transactional Hired Ve",
+      "Our Strategic Global Delivery Hubs",
+      "Ready to Grow Your Business with SEO? Let's T"
+    ]
+  },
+  "services.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Full-Stack Digital Marketing & 3D Engineering",
+      "NO_HEADING",
+      "SEO Services (India & Global)",
+      "Live Google Ranking Case Studies",
+      "Services FAQs",
+      "Accelerate Your Market Dominance Today"
+    ]
+  },
+  "social-media-marketing.html": {
+    "sections_count": 6,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Strategic Social Media Marketing & Brand Scal",
+      "NO_HEADING",
+      "Performance Social Media Marketing",
+      "Social Media Retainer Plans",
+      "Social Media FAQs",
+      "Ready to Build an Unignorable Social Presence"
+    ]
+  },
+  "social-media-plans.html": {
+    "sections_count": 9,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Social Media Marketing Plans: Build Authority",
+      "NO_HEADING",
+      "Social Media Marketing \u2013 It\u2019s All About Telli",
+      "It\u2019s About Real Influence, Not Just Empty Pop",
+      "Why Choose Webflikr For Social Media Marketin",
+      "Social Platforms We Manage & Scale",
+      "Compare Social Media Marketing Plans",
+      "Social Media Marketing Plans FAQs",
+      "Claim Your Free Social Media Brand & Feed Aud"
+    ]
+  },
+  "terms.html": {
+    "sections_count": 2,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Terms of Service",
+      "Global Locations: New Delhi \u2022 Mumbai \u2022 London"
+    ]
+  },
+  "testimonials.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Proven Search Growth Through The Words of Our",
+      "Executive Video Testimonials",
+      "Comprehensive Client Reviews",
+      "Verified Benchmark Results",
+      "Independently Audited & Certified",
+      "Speak Directly With An Existing Client Refere",
+      "Client Testimonial Questions",
+      "Ready to Experience Award-Winning Search Grow"
+    ]
+  },
+  "thought-leadership.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Thought Leadership: Decoding Search Algorithm",
+      "Google AI Overviews & SGE: The Enterprise Imp",
+      "Director Perspectives & Essays",
+      "Our Data & Testing Methodology",
+      "Subscribe to the Executive Briefing",
+      "Research & Methodology FAQs",
+      "Put These Algorithmic Insights To Work for Yo"
+    ]
+  },
+  "web-design-portfolio.html": {
+    "sections_count": 8,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Where Search Engineering Meets Award-Winning ",
+      "Danetti UK: Headless 3D Furniture Platform",
+      "Shanti Gopal: Multispecialty Hospital Network",
+      "Curated Digital Experiences",
+      "The Webflikr Design-to-Code Framework",
+      "Built on Modern Web Standards",
+      "Web Design & Build FAQs",
+      "Ready to Build An Award-Winning Digital Flags"
+    ]
+  },
+  "webinars.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Technical Masterclasses & Live Search Demonst",
+      "Cracking Google AI Overviews: Entity-Based Se",
+      "Watch Past Masterclasses On-Demand",
+      "Led by Practicing Practitioners",
+      "Book A Private Masterclass For Your Internal ",
+      "Webinar & Masterclass FAQs",
+      "Ready to Upgrade Your Search Architecture?"
+    ]
+  },
+  "website-designing.html": {
+    "sections_count": 11,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Best Web Design Company in India",
+      "NO_HEADING",
+      "Website Design Company India: Beyond Ordinary",
+      "Why Do You Need a Website Designed for Your B",
+      "Creative Works & Digital Flagships",
+      "Why Choose Webflikr for Web Designing Service",
+      "Included in Our Web Design Services",
+      "NO_HEADING",
+      "Our Process of Web Designing",
+      "Frequently Asked Questions for Web Design Ser",
+      "Request a Free Web Design Consultation"
+    ]
+  },
+  "website-redesign.html": {
+    "sections_count": 7,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": true,
+    "headings": [
+      "Website Redesign Services India & Global",
+      "NO_HEADING",
+      "Give a Complete Facelift To Your Digital Pres",
+      "Our Website Redesigns Are Much More Than A Fr",
+      "Our Process of Website Redesign",
+      "Frequently Asked Questions for Website Redesi",
+      "Request a Free Website Redesign Audit"
+    ]
+  },
+  "wp-admin.html": {
+    "sections_count": 0,
+    "overflow_desktop": false,
+    "overflow_mobile": false,
+    "scroll_w": 1366,
+    "client_w": 1366,
+    "broken_images": [],
+    "console_errors": [],
+    "bad_terms": [],
+    "mobile_toggle": false,
+    "headings": []
+  }
+}

@@ -1,0 +1,164 @@
+
+/* ==========================================================================
+   AUTHENTICATED WORDPRESS-STYLE ADMIN BAR (VISIBLE ONLY AFTER LOGIN)
+   ========================================================================== */
+.wp-admin-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
+  background: #11141b;
+  border-bottom: 2px solid var(--brand-orange);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  color: #e2e8f0;
+}
+
+body.admin-logged-in {
+  padding-top: 44px;
+}
+
+.wp-admin-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.wp-admin-brand {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.88rem;
+  letter-spacing: 0.5px;
+}
+
+.wp-admin-brand span.wp-icon {
+  color: var(--brand-orange);
+  font-size: 1.1rem;
+}
+
+.wp-admin-divider {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.wp-admin-user {
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wp-admin-user strong {
+  color: #ffffff;
+}
+
+.wp-admin-bar-center {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.wp-btn-toggle-edit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 94, 30, 0.15);
+  border: 1px solid rgba(255, 94, 30, 0.45);
+  color: #ff723a;
+  font-weight: 700;
+  font-size: 0.82rem;
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.wp-btn-toggle-edit:hover {
+  background: rgba(255, 94, 30, 0.3);
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(255, 94, 30, 0.4);
+}
+
+.wp-btn-toggle-edit.active-mode {
+  background: var(--brand-orange) !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 20px rgba(255, 94, 30, 0.6) !important;
+  animation: pulseEdit 2s infinite alternate;
+}
+
+@keyframes pulseEdit {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.03); }
+}
+
+.wp-btn-reset-edits {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #cbd5e1;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.wp-btn-reset-edits:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+.wp-admin-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.wp-status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: #10b981;
+}
+
+.wp-status-dot {
+  width: 7px;
+  height: 7px;
+  background: #10b981;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #10b981;
+}
+
+.wp-btn-logout {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #94a3b8;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.wp-btn-logout:hover {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: #ef4444;
+  color: #f87171;
+}

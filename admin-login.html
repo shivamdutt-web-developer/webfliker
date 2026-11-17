@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBFLIKR CMS | Secure Client Admin Portal</title>
+  <meta name="description" content="Login to access the Webflikr In-Page Visual CMS Editor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .admin-login-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: 
+        radial-gradient(circle at 50% 20%, rgba(255, 94, 30, 0.12) 0%, transparent 60%),
+        radial-gradient(circle at 80% 80%, rgba(121, 40, 202, 0.08) 0%, transparent 50%),
+        #0c0d12;
+      padding: 30px 20px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .admin-card {
+      width: 100%;
+      max-width: 460px;
+      background: rgba(18, 20, 28, 0.85);
+      backdrop-filter: blur(28px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 44px 38px;
+      box-shadow: 
+        0 30px 80px rgba(0, 0, 0, 0.8),
+        0 0 40px rgba(255, 94, 30, 0.15);
+      position: relative;
+      z-index: 2;
+    }
+
+    .admin-brand {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .admin-logo-mark {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 16px;
+      background: linear-gradient(135deg, #ff5e1e 0%, #1a1a1a 100%);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(255, 94, 30, 0.4);
+    }
+
+    .admin-cube {
+      width: 18px;
+      height: 18px;
+      background: #ffffff;
+      border-radius: 4px;
+      transform: rotate(45deg);
+    }
+
+    .admin-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+
+    .admin-subtitle {
+      color: #94a3b8;
+      font-size: 0.88rem;
+    }
+
+    .login-form-group {
+      margin-bottom: 20px;
+    }
+
+    .login-label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #cbd5e1;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .login-input-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .login-input-wrap i {
+      position: absolute;
+      left: 14px;
+      color: #64748b;
+      width: 18px;
+      height: 18px;
+    }
+
+    .login-input {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 13px 14px 13px 44px;
+      color: #ffffff;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.25s ease;
+    }
+
+    .login-input:focus {
+      border-color: #ff5e1e;
+      background: rgba(255, 94, 30, 0.04);
+      box-shadow: 0 0 15px rgba(255, 94, 30, 0.25);
+    }
+
+    .admin-credentials-hint {
+      background: rgba(255, 94, 30, 0.08);
+      border: 1px solid rgba(255, 94, 30, 0.25);
+      border-radius: 12px;
+      padding: 12px 16px;
+      margin-bottom: 24px;
+      font-size: 0.82rem;
+      color: #e2e8f0;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .admin-credentials-hint i {
+      color: #ff5e1e;
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .btn-admin-submit {
+      width: 100%;
+      background: #ff5e1e;
+      color: #ffffff;
+      border: none;
+      padding: 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 20px rgba(255, 94, 30, 0.35);
+    }
+
+    .btn-admin-submit:hover {
+      background: #ff723a;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(255, 94, 30, 0.5);
+    }
+
+    .btn-admin-quick-demo {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.06);
+      color: #e2e8f0;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 12px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 12px;
+      transition: all 0.25s ease;
+    }
+
+    .btn-admin-quick-demo:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .back-home-link {
+      display: block;
+      text-align: center;
+      margin-top: 24px;
+      color: #64748b;
+      font-size: 0.84rem;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .back-home-link:hover {
+      color: #ff5e1e;
+    }
+  </style>
+</head>
+<body class="admin-login-page">
+
+  <div class="admin-card">
+    <div class="admin-brand">
+      <div class="admin-logo-mark"><div class="admin-cube"></div></div>
+      <h1 class="admin-title">WEBFLIKR <span style="color:#ff5e1e;">CMS</span></h1>
+      <p class="admin-subtitle">Secure In-Page Visual Editor Portal</p>
+    </div>
+
+    <!-- Credentials Hint Box for Easy Client Access -->
+    <div class="admin-credentials-hint">
+      <i data-lucide="key-round"></i>
+      <div>
+        <strong>WordPress-Style Client Access:</strong><br>
+        Username: <code style="background:rgba(0,0,0,0.3); padding:2px 6px; border-radius:4px;">admin</code> &bull; 
+        Password: <code style="background:rgba(0,0,0,0.3); padding:2px 6px; border-radius:4px;">admin123</code>
+      </div>
+    </div>
+
+    <form id="adminLoginForm">
+      <div class="login-form-group">
+        <label class="login-label">Username / Client ID</label>
+        <div class="login-input-wrap">
+          <i data-lucide="user"></i>
+          <input type="text" id="adminUser" class="login-input" value="admin" required placeholder="Enter admin username">
+        </div>
+      </div>
+
+      <div class="login-form-group">
+        <label class="login-label">Password</label>
+        <div class="login-input-wrap">
+          <i data-lucide="lock"></i>
+          <input type="password" id="adminPass" class="login-input" value="admin123" required placeholder="Enter password">
+        </div>
+      </div>
+
+      <button type="submit" class="btn-admin-submit">
+        <span>Log In &amp; Launch Visual CMS</span>
+        <i data-lucide="arrow-right" style="width: 18px; height: 18px;"></i>
+      </button>
+
+      <button type="button" class="btn-admin-quick-demo" id="quickDemoLoginBtn">
+        <i data-lucide="zap" style="color:#ff5e1e; width: 16px; height: 16px;"></i>
+        <span>1-Click Instant Client Login (Demo Mode)</span>
+      </button>
+    </form>
+
+    <a href="index.html" class="back-home-link">← Return to Public Website</a>
+  </div>
+
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+
+    function authenticateAndRedirect() {
+      // Save authentication state in localStorage
+      localStorage.setItem('webflikr_cms_authenticated', 'true');
+      localStorage.setItem('webflikr_cms_auto_edit', 'true');
+      
+      // Redirect back to homepage or previous page
+      const params = new URLSearchParams(window.location.search);
+      const redirectUrl = params.get('redirect') || 'index.html';
+      
+      window.location.href = redirectUrl;
+    }
+
+    document.getElementById('adminLoginForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      authenticateAndRedirect();
+    });
+
+    document.getElementById('quickDemoLoginBtn').addEventListener('click', () => {
+      authenticateAndRedirect();
+    });
+  </script>
+</body>
+</html>

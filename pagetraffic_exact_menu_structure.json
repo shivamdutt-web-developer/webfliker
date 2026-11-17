@@ -1,0 +1,804 @@
+{
+  "menuTree": {
+    "Services": {
+      "url": "#",
+      "subLinks": [
+        {
+          "text": "Digital Marketing",
+          "url": "/digital-marketing-services-india/"
+        },
+        {
+          "text": "SEO Services",
+          "url": "/seo-services-india/"
+        },
+        {
+          "text": "Ecommerce SEO",
+          "url": "/ecommerce-seo-services/"
+        },
+        {
+          "text": "Enterprise SEO",
+          "url": "/enteprise-seo-india/"
+        },
+        {
+          "text": "AI SEO",
+          "url": "/ai-seo-services/"
+        },
+        {
+          "text": "App Store Optimization",
+          "url": "/app-store-seo-india/"
+        },
+        {
+          "text": "Social Media Marketing",
+          "url": "/social-media-marketing-services-india/"
+        },
+        {
+          "text": "Paid Advertising (PPC)",
+          "url": "/pay-per-click-ppc-services-india/"
+        },
+        {
+          "text": "Website Designing",
+          "url": "/web-design-india/"
+        },
+        {
+          "text": "Ecommerce Website Design",
+          "url": "/ecommerce-web-design-india/"
+        },
+        {
+          "text": "Website Redesign",
+          "url": "/website-redesign-india/"
+        },
+        {
+          "text": "Read more",
+          "url": "/blog/enterprise-seo-strategy/"
+        }
+      ]
+    },
+    "SEO Services": {
+      "url": "/seo-services-india/",
+      "subLinks": [
+        {
+          "text": "SEO Services",
+          "url": "/seo-services-india/"
+        }
+      ]
+    },
+    "Ecommerce SEO": {
+      "url": "/ecommerce-seo-services/",
+      "subLinks": [
+        {
+          "text": "Ecommerce SEO",
+          "url": "/ecommerce-seo-services/"
+        }
+      ]
+    },
+    "Enterprise SEO": {
+      "url": "/enteprise-seo-india/",
+      "subLinks": [
+        {
+          "text": "Enterprise SEO",
+          "url": "/enteprise-seo-india/"
+        }
+      ]
+    },
+    "AI SEO": {
+      "url": "/ai-seo-services/",
+      "subLinks": [
+        {
+          "text": "AI SEO",
+          "url": "/ai-seo-services/"
+        }
+      ]
+    },
+    "App Store Optimization": {
+      "url": "/app-store-seo-india/",
+      "subLinks": [
+        {
+          "text": "App Store Optimization",
+          "url": "/app-store-seo-india/"
+        }
+      ]
+    },
+    "Social Media Marketing": {
+      "url": "/social-media-marketing-services-india/",
+      "subLinks": [
+        {
+          "text": "Social Media Marketing",
+          "url": "/social-media-marketing-services-india/"
+        }
+      ]
+    },
+    "Paid Advertising (PPC)": {
+      "url": "/pay-per-click-ppc-services-india/",
+      "subLinks": [
+        {
+          "text": "Paid Advertising (PPC)",
+          "url": "/pay-per-click-ppc-services-india/"
+        }
+      ]
+    },
+    "Website Designing": {
+      "url": "/web-design-india/",
+      "subLinks": [
+        {
+          "text": "Website Designing",
+          "url": "/web-design-india/"
+        }
+      ]
+    },
+    "Ecommerce Website Design": {
+      "url": "/ecommerce-web-design-india/",
+      "subLinks": [
+        {
+          "text": "Ecommerce Website Design",
+          "url": "/ecommerce-web-design-india/"
+        }
+      ]
+    },
+    "Website Redesign": {
+      "url": "/website-redesign-india/",
+      "subLinks": [
+        {
+          "text": "Website Redesign",
+          "url": "/website-redesign-india/"
+        }
+      ]
+    },
+    "Plans": {
+      "url": "#",
+      "subLinks": [
+        {
+          "text": "SEO Plans",
+          "url": "/seo-packages-india/"
+        },
+        {
+          "text": "Google Map Local SEO Plans",
+          "url": "/local-map-seo-india/"
+        },
+        {
+          "text": "Ecommerce SEO Plans",
+          "url": "/ecommerce-seo-india/"
+        },
+        {
+          "text": "PPC Plans",
+          "url": "/ppc-packages-india/"
+        },
+        {
+          "text": "Social Media Marketing Plans",
+          "url": "/social-media-packages-india/"
+        }
+      ]
+    },
+    "SEO Plans": {
+      "url": "/seo-packages-india/",
+      "subLinks": [
+        {
+          "text": "SEO Plans",
+          "url": "/seo-packages-india/"
+        }
+      ]
+    },
+    "Google Map Local SEO Plans": {
+      "url": "/local-map-seo-india/",
+      "subLinks": [
+        {
+          "text": "Google Map Local SEO Plans",
+          "url": "/local-map-seo-india/"
+        }
+      ]
+    },
+    "Ecommerce SEO Plans": {
+      "url": "/ecommerce-seo-india/",
+      "subLinks": [
+        {
+          "text": "Ecommerce SEO Plans",
+          "url": "/ecommerce-seo-india/"
+        }
+      ]
+    },
+    "PPC Plans": {
+      "url": "/ppc-packages-india/",
+      "subLinks": [
+        {
+          "text": "PPC Plans",
+          "url": "/ppc-packages-india/"
+        }
+      ]
+    },
+    "Social Media Marketing Plans": {
+      "url": "/social-media-packages-india/",
+      "subLinks": [
+        {
+          "text": "Social Media Marketing Plans",
+          "url": "/social-media-packages-india/"
+        }
+      ]
+    },
+    "Who We Are": {
+      "url": "#",
+      "subLinks": [
+        {
+          "text": "About Us",
+          "url": "/digital-company-pagetraffic/"
+        },
+        {
+          "text": "Our Team",
+          "url": "/seo-team-india/"
+        },
+        {
+          "text": "Our Story",
+          "url": "/our-story-india/"
+        },
+        {
+          "text": "Thought Leadership",
+          "url": "/seo-leadership-india/"
+        },
+        {
+          "text": "Life at PageTraffic",
+          "url": "/life-at-pagetraffic/"
+        },
+        {
+          "text": "Featured Clients",
+          "url": "/clients-india/"
+        },
+        {
+          "text": "Testimonials",
+          "url": "/seo-testimonials-india/"
+        },
+        {
+          "text": "SEO Results",
+          "url": "/seo-result-india/"
+        },
+        {
+          "text": "Web Design Portfolio",
+          "url": "/web-design-portfolio/"
+        },
+        {
+          "text": "SEO Awards",
+          "url": "/seo-awards-india/"
+        },
+        {
+          "text": "Media Coverages",
+          "url": "/pagetraffic-media/"
+        },
+        {
+          "text": "Our Locations",
+          "url": "/seo-company-india-locations/"
+        },
+        {
+          "text": "Read more",
+          "url": "/blog/16-seo-tools/"
+        },
+        {
+          "text": "Contact Us",
+          "url": "/get-in-touch/"
+        },
+        {
+          "text": "Get A Free Analysis",
+          "url": "/request-quote/"
+        }
+      ]
+    },
+    "About Us": {
+      "url": "/digital-company-pagetraffic/",
+      "subLinks": [
+        {
+          "text": "About Us",
+          "url": "/digital-company-pagetraffic/"
+        }
+      ]
+    },
+    "Our Team": {
+      "url": "/seo-team-india/",
+      "subLinks": [
+        {
+          "text": "Our Team",
+          "url": "/seo-team-india/"
+        }
+      ]
+    },
+    "Our Story": {
+      "url": "/our-story-india/",
+      "subLinks": [
+        {
+          "text": "Our Story",
+          "url": "/our-story-india/"
+        }
+      ]
+    },
+    "Thought Leadership": {
+      "url": "/seo-leadership-india/",
+      "subLinks": [
+        {
+          "text": "Thought Leadership",
+          "url": "/seo-leadership-india/"
+        }
+      ]
+    },
+    "Life at PageTraffic": {
+      "url": "/life-at-pagetraffic/",
+      "subLinks": [
+        {
+          "text": "Life at PageTraffic",
+          "url": "/life-at-pagetraffic/"
+        }
+      ]
+    },
+    "Featured Clients": {
+      "url": "/clients-india/",
+      "subLinks": [
+        {
+          "text": "Featured Clients",
+          "url": "/clients-india/"
+        }
+      ]
+    },
+    "Testimonials": {
+      "url": "/seo-testimonials-india/",
+      "subLinks": [
+        {
+          "text": "Testimonials",
+          "url": "/seo-testimonials-india/"
+        }
+      ]
+    },
+    "SEO Results": {
+      "url": "/seo-result-india/",
+      "subLinks": [
+        {
+          "text": "SEO Results",
+          "url": "/seo-result-india/"
+        }
+      ]
+    },
+    "Web Design Portfolio": {
+      "url": "/web-design-portfolio/",
+      "subLinks": [
+        {
+          "text": "Web Design Portfolio",
+          "url": "/web-design-portfolio/"
+        }
+      ]
+    },
+    "SEO Awards": {
+      "url": "/seo-awards-india/",
+      "subLinks": [
+        {
+          "text": "SEO Awards",
+          "url": "/seo-awards-india/"
+        }
+      ]
+    },
+    "Media Coverages": {
+      "url": "/pagetraffic-media/",
+      "subLinks": [
+        {
+          "text": "Media Coverages",
+          "url": "/pagetraffic-media/"
+        }
+      ]
+    },
+    "Our Locations": {
+      "url": "/seo-company-india-locations/",
+      "subLinks": [
+        {
+          "text": "Our Locations",
+          "url": "/seo-company-india-locations/"
+        }
+      ]
+    },
+    "Contact Us": {
+      "url": "/get-in-touch/",
+      "subLinks": [
+        {
+          "text": "Contact Us",
+          "url": "/get-in-touch/"
+        }
+      ]
+    },
+    "Get A Free Analysis": {
+      "url": "/request-quote/",
+      "subLinks": [
+        {
+          "text": "Get A Free Analysis",
+          "url": "/request-quote/"
+        }
+      ]
+    },
+    "Resources": {
+      "url": "#",
+      "subLinks": [
+        {
+          "text": "Blog",
+          "url": "/blog/"
+        },
+        {
+          "text": "Case Studies",
+          "url": "/seo-case-studies/"
+        },
+        {
+          "text": "Reviews",
+          "url": "/reviews/"
+        },
+        {
+          "text": "Free Guides",
+          "url": "/digital-marketing-guides/"
+        },
+        {
+          "text": "Events",
+          "url": "/seo-events/"
+        },
+        {
+          "text": "Webinars",
+          "url": "/webinars/"
+        },
+        {
+          "text": "Presentations",
+          "url": "/seo-presentations/"
+        },
+        {
+          "text": "Read more",
+          "url": "/blog/16-seo-tools/"
+        },
+        {
+          "text": "Contact Us",
+          "url": "/get-in-touch/"
+        },
+        {
+          "text": "Get A Free Analysis",
+          "url": "/request-quote/"
+        }
+      ]
+    },
+    "Blog": {
+      "url": "/blog/",
+      "subLinks": [
+        {
+          "text": "Blog",
+          "url": "/blog/"
+        }
+      ]
+    },
+    "Case Studies": {
+      "url": "/seo-case-studies/",
+      "subLinks": [
+        {
+          "text": "Case Studies",
+          "url": "/seo-case-studies/"
+        }
+      ]
+    },
+    "Reviews": {
+      "url": "/reviews/",
+      "subLinks": [
+        {
+          "text": "Reviews",
+          "url": "/reviews/"
+        }
+      ]
+    },
+    "Free Guides": {
+      "url": "/digital-marketing-guides/",
+      "subLinks": [
+        {
+          "text": "Free Guides",
+          "url": "/digital-marketing-guides/"
+        }
+      ]
+    },
+    "Events": {
+      "url": "/seo-events/",
+      "subLinks": [
+        {
+          "text": "Events",
+          "url": "/seo-events/"
+        }
+      ]
+    },
+    "Webinars": {
+      "url": "/webinars/",
+      "subLinks": [
+        {
+          "text": "Webinars",
+          "url": "/webinars/"
+        }
+      ]
+    },
+    "Presentations": {
+      "url": "/seo-presentations/",
+      "subLinks": [
+        {
+          "text": "Presentations",
+          "url": "/seo-presentations/"
+        }
+      ]
+    },
+    "Career": {
+      "url": "#",
+      "subLinks": [
+        {
+          "text": "Current OpeningsLatest",
+          "url": "https://jobs.pagetraffic.in/"
+        },
+        {
+          "text": "Career With PageTraffic",
+          "url": "/career/"
+        },
+        {
+          "text": "Benefits",
+          "url": "/it-company-benefits-india/"
+        },
+        {
+          "text": "Life at PageTraffic",
+          "url": "/life-at-pagetraffic/"
+        },
+        {
+          "text": "Our Values",
+          "url": "/our-values/"
+        },
+        {
+          "text": "Recruitment Process",
+          "url": "/recruitment-process/"
+        }
+      ]
+    },
+    "Current OpeningsLatest": {
+      "url": "https://jobs.pagetraffic.in/",
+      "subLinks": [
+        {
+          "text": "Current OpeningsLatest",
+          "url": "https://jobs.pagetraffic.in/"
+        }
+      ]
+    },
+    "Career With PageTraffic": {
+      "url": "/career/",
+      "subLinks": [
+        {
+          "text": "Career With PageTraffic",
+          "url": "/career/"
+        }
+      ]
+    },
+    "Benefits": {
+      "url": "/it-company-benefits-india/",
+      "subLinks": [
+        {
+          "text": "Benefits",
+          "url": "/it-company-benefits-india/"
+        }
+      ]
+    },
+    "Our Values": {
+      "url": "/our-values/",
+      "subLinks": [
+        {
+          "text": "Our Values",
+          "url": "/our-values/"
+        }
+      ]
+    },
+    "Recruitment Process": {
+      "url": "/recruitment-process/",
+      "subLinks": [
+        {
+          "text": "Recruitment Process",
+          "url": "/recruitment-process/"
+        }
+      ]
+    }
+  },
+  "allHeaderLinks": [
+    {
+      "text": "Buy Now",
+      "url": "https://beyondsearchsummit.com/tickets?utm_source=PageTraffic.in&utm_medium=website&utm_campaign=getticket"
+    },
+    {
+      "text": "+91-92125 21444",
+      "url": "tel: \n+919212521444"
+    },
+    {
+      "text": "Contact Us",
+      "url": "https://www.pagetraffic.in/get-in-touch/?utm_source=Header&utm_medium=website&utm_campaign=onpage"
+    },
+    {
+      "text": "<img class=\"logo-al\" src=\"https://www.pagetraffic.in/wp-content/themes/generatepress-child/images/pagetraffic-logo.png\" alt=\"pagetraffic logo\">",
+      "url": "https://www.pagetraffic.in/"
+    },
+    {
+      "text": "",
+      "url": "https://www.pagetraffic.in/"
+    },
+    {
+      "text": "Digital Marketing",
+      "url": "/digital-marketing-services-india/"
+    },
+    {
+      "text": "SEO Services",
+      "url": "/seo-services-india/"
+    },
+    {
+      "text": "Ecommerce SEO",
+      "url": "/ecommerce-seo-services/"
+    },
+    {
+      "text": "Enterprise SEO",
+      "url": "/enteprise-seo-india/"
+    },
+    {
+      "text": "AI SEO",
+      "url": "/ai-seo-services/"
+    },
+    {
+      "text": "App Store Optimization",
+      "url": "/app-store-seo-india/"
+    },
+    {
+      "text": "Social Media Marketing",
+      "url": "/social-media-marketing-services-india/"
+    },
+    {
+      "text": "Paid Advertising (PPC)",
+      "url": "/pay-per-click-ppc-services-india/"
+    },
+    {
+      "text": "Website Designing",
+      "url": "/web-design-india/"
+    },
+    {
+      "text": "Ecommerce Website Design",
+      "url": "/ecommerce-web-design-india/"
+    },
+    {
+      "text": "Website Redesign",
+      "url": "/website-redesign-india/"
+    },
+    {
+      "text": "Read more",
+      "url": "/blog/enterprise-seo-strategy/"
+    },
+    {
+      "text": "SEO Plans",
+      "url": "/seo-packages-india/"
+    },
+    {
+      "text": "Google Map Local SEO Plans",
+      "url": "/local-map-seo-india/"
+    },
+    {
+      "text": "Ecommerce SEO Plans",
+      "url": "/ecommerce-seo-india/"
+    },
+    {
+      "text": "PPC Plans",
+      "url": "/ppc-packages-india/"
+    },
+    {
+      "text": "Social Media Marketing Plans",
+      "url": "/social-media-packages-india/"
+    },
+    {
+      "text": "About Us",
+      "url": "/digital-company-pagetraffic/"
+    },
+    {
+      "text": "Our Team",
+      "url": "/seo-team-india/"
+    },
+    {
+      "text": "Our Story",
+      "url": "/our-story-india/"
+    },
+    {
+      "text": "Thought Leadership",
+      "url": "/seo-leadership-india/"
+    },
+    {
+      "text": "Life at PageTraffic",
+      "url": "/life-at-pagetraffic/"
+    },
+    {
+      "text": "Featured Clients",
+      "url": "/clients-india/"
+    },
+    {
+      "text": "Testimonials",
+      "url": "/seo-testimonials-india/"
+    },
+    {
+      "text": "SEO Results",
+      "url": "/seo-result-india/"
+    },
+    {
+      "text": "Web Design Portfolio",
+      "url": "/web-design-portfolio/"
+    },
+    {
+      "text": "SEO Awards",
+      "url": "/seo-awards-india/"
+    },
+    {
+      "text": "Media Coverages",
+      "url": "/pagetraffic-media/"
+    },
+    {
+      "text": "Our Locations",
+      "url": "/seo-company-india-locations/"
+    },
+    {
+      "text": "Read more",
+      "url": "/blog/16-seo-tools/"
+    },
+    {
+      "text": "Contact Us",
+      "url": "/get-in-touch/"
+    },
+    {
+      "text": "Get A Free Analysis",
+      "url": "/request-quote/"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "text": "Case Studies",
+      "url": "/seo-case-studies/"
+    },
+    {
+      "text": "Reviews",
+      "url": "/reviews/"
+    },
+    {
+      "text": "Free Guides",
+      "url": "/digital-marketing-guides/"
+    },
+    {
+      "text": "Events",
+      "url": "/seo-events/"
+    },
+    {
+      "text": "Webinars",
+      "url": "/webinars/"
+    },
+    {
+      "text": "Presentations",
+      "url": "/seo-presentations/"
+    },
+    {
+      "text": "Read more",
+      "url": "/blog/16-seo-tools/"
+    },
+    {
+      "text": "Contact Us",
+      "url": "/get-in-touch/"
+    },
+    {
+      "text": "Get A Free Analysis",
+      "url": "/request-quote/"
+    },
+    {
+      "text": "Current OpeningsLatest",
+      "url": "https://jobs.pagetraffic.in/"
+    },
+    {
+      "text": "Career With PageTraffic",
+      "url": "/career/"
+    },
+    {
+      "text": "Benefits",
+      "url": "/it-company-benefits-india/"
+    },
+    {
+      "text": "Life at PageTraffic",
+      "url": "/life-at-pagetraffic/"
+    },
+    {
+      "text": "Our Values",
+      "url": "/our-values/"
+    },
+    {
+      "text": "Recruitment Process",
+      "url": "/recruitment-process/"
+    }
+  ]
+}

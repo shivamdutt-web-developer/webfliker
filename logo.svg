@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 48" width="230" height="48" fill="none">
+  <defs>
+    <linearGradient id="wfGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b39" />
+      <stop offset="50%" stop-color="#ff5e1e" />
+      <stop offset="100%" stop-color="#d93800" />
+    </linearGradient>
+    <linearGradient id="wfGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9153" />
+      <stop offset="100%" stop-color="#ff5e1e" />
+    </linearGradient>
+    <filter id="wfGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#ff5e1e" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- LOGO ICON MARK (Dynamic 3D Hex Monogram) -->
+  <g transform="translate(4, 4)" filter="url(#wfGlow)">
+    <!-- Base faceted hexagon -->
+    <path d="M20 2 L38 12 L38 30 L20 40 L2 30 L2 12 Z" fill="#141722" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+    <!-- Dynamic geometric facet 1 -->
+    <path d="M20 2 L38 12 L20 22 L2 12 Z" fill="url(#wfGrad2)" opacity="0.95" />
+    <!-- Dynamic geometric facet 2 -->
+    <path d="M20 22 L38 12 L38 30 L20 40 Z" fill="url(#wfGrad1)" />
+    <!-- Dynamic inner W cut reflection -->
+    <path d="M11 17 L20 27 L29 17 L33 22 L20 35 L7 22 Z" fill="#ffffff" opacity="0.95" />
+  </g>
+
+  <!-- LOGO TYPOGRAPHY (Bold Editorial Clean Agency Sans) -->
+  <g transform="translate(54, 33)">
+    <!-- WEB in bold crisp dark slate for light theme -->
+    <text font-family="'Space Grotesk', 'Plus Jakarta Sans', -apple-system, sans-serif" font-size="25" font-weight="800" letter-spacing="-0.8" fill="#0f172a">WEB</text>
+    <!-- FLIKR in bold brand orange -->
+    <text x="56" font-family="'Space Grotesk', 'Plus Jakarta Sans', -apple-system, sans-serif" font-size="25" font-weight="800" letter-spacing="-0.8" fill="url(#wfGrad1)">FLIKR</text>
+    <!-- Accent Period Dot in Orange -->
+    <circle cx="137" cy="-7" r="4" fill="#ff5e1e" />
+  </g>
+</svg>

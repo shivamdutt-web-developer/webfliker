@@ -1,0 +1,2727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBFLIKR | Next-Gen 3D Creative, SEO & Performance Marketing Agency</title>
+  <meta name="description" content="Webflikr is an award-winning creative digital agency delivering enterprise SEO, 3D headless e-commerce, and generative AI search dominance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@1,8..60,400&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  <link rel="stylesheet" href="styles.css?v=1794771344">
+</head>
+<body class="theme-light">
+  <!-- Schbang-Style Custom Magnetic Cursor -->
+  <div class="schbang-cursor-dot" id="cursorDot"></div>
+  <div class="schbang-cursor-ring" id="cursorRing">
+    <span class="cursor-label" id="cursorLabel"></span>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- 1. TOP ANNOUNCEMENT BAR (CLEAN LIGHT DESIGN)                              -->
+  <!-- ========================================================================= -->
+  <div class="top-announcement-bar">
+    <div class="container top-bar-content">
+      <div class="announcement-left">
+        <span class="badge-sparkle">✦ Beyond Search Summit 2027</span>
+        <span class="announcement-text editable" data-cms-id="top-ticker">Tickets Are Live • Q3 Enterprise Agency Registrations Now Open</span>
+        <a href="get-a-proposal.html" class="top-announcement-link">Claim Free Audit →</a>
+      </div>
+      <div class="announcement-right">
+        <a href="tel:+919212521444" class="top-contact-link"><i data-lucide="phone" style="width:14px; height:14px;"></i> +91 92125 21444</a>
+        <span class="divider" style="color:#cbd5e1;">|</span>
+        <a href="current-openings.html" class="top-career-pill"><span class="pulse-dot"></span> We're Hiring</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- 2. SITE HEADER & ALL 5 MEGA MENUS (CRISP WHITE SOLID CARDS)               -->
+  <!-- ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Webflikr Agency Home">
+        <img src="logo.svg?v=2" alt="WEBFLIKR." class="site-brand-logo">
+      </a>
+
+      <!-- Desktop Navigation with 5 Mega Dropdowns -->
+      <nav class="desktop-nav">
+        <ul class="nav-links">
+          <!-- 1. SERVICES MEGA MENU -->
+          <li class="has-mega-menu" data-menu="services">
+            <a href="services.html" class="nav-item">Services <i data-lucide="chevron-down" style="width:14px; height:14px;"></i></a>
+            <div class="mega-dropdown mega-services">
+              <div class="mega-grid" style="grid-template-columns: 1.4fr 1.1fr 1.1fr;">
+                <!-- Column 1: DIGITAL MARKETING -->
+                <div class="mega-col">
+                  <span class="mega-col-title">DIGITAL MARKETING</span>
+                  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 14px;">
+                    <ul class="mega-sublinks">
+                      <li><a href="seo-services.html" class="mega-link">SEO Services</a></li>
+                      <li><a href="ecommerce-seo.html" class="mega-link">Ecommerce SEO</a></li>
+                      <li><a href="enterprise-seo.html" class="mega-link">Enterprise SEO</a></li>
+                      <li><a href="ai-seo.html" class="mega-link">AI SEO</a></li>
+                    </ul>
+                    <ul class="mega-sublinks">
+                      <li><a href="app-store-optimization.html" class="mega-link">App Store Optimization</a></li>
+                      <li><a href="social-media-marketing.html" class="mega-link">Social Media Marketing</a></li>
+                      <li><a href="ppc-services.html" class="mega-link">Paid Advertising (PPC)</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Column 2: WEB DESIGN & DEVELOPMENT -->
+                <div class="mega-col">
+                  <span class="mega-col-title">WEB DESIGN & DEVELOPMENT</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li><a href="website-designing.html" class="mega-link">Website Designing</a></li>
+                    <li><a href="ecommerce-website-design.html" class="mega-link">Ecommerce Website Design</a></li>
+                    <li><a href="website-redesign.html" class="mega-link">Website Redesign</a></li>
+                  </ul>
+                </div>
+
+                <!-- Column 3: Featured Guide Card -->
+                <div class="mega-col mega-featured-col">
+                  <div class="mega-card">
+                    <div class="mega-card-img-wrap">
+                      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Enterprise SEO" class="mega-card-img">
+                    </div>
+                    <div class="mega-card-content">
+                      <h4 class="mega-card-title">What Is Enterprise SEO? (Definition, Examples & Strategies!)</h4>
+                      <a href="blog.html" class="mega-card-link">Read more →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- 2. PLANS MEGA MENU -->
+          <li class="has-mega-menu" data-menu="plans">
+            <a href="plans.html" class="nav-item">Plans <i data-lucide="chevron-down" style="width:14px; height:14px;"></i></a>
+            <div class="mega-dropdown mega-plans">
+              <div class="mega-grid" style="grid-template-columns: 1.8fr 1.2fr;">
+                <div class="mega-col">
+                  <span class="mega-col-title">PLANS</span>
+                  <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; margin-top: 14px;">
+                    <ul class="mega-sublinks">
+                      <li><a href="seo-plans.html" class="mega-link">SEO Plans</a></li>
+                      <li><a href="local-seo-plans.html" class="mega-link">Google Map Local SEO Plans</a></li>
+                      <li><a href="ecommerce-seo-plans.html" class="mega-link">Ecommerce SEO Plans</a></li>
+                    </ul>
+                    <ul class="mega-sublinks">
+                      <li><a href="ppc-plans.html" class="mega-link">PPC Plans</a></li>
+                      <li><a href="social-media-plans.html" class="mega-link">Social Media Marketing Plans</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="mega-col mega-featured-col">
+                  <div class="mega-card">
+                    <div class="mega-card-img-wrap">
+                      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="SEO Plans Comparison" class="mega-card-img">
+                    </div>
+                    <div class="mega-card-content">
+                      <h4 class="mega-card-title">Which SEO Plan Fits Your Growth Goals?</h4>
+                      <p class="mega-card-desc">Compare ROI deliverables, monthly hours & keyword caps across all tiers.</p>
+                      <a href="seo-plans.html" class="mega-card-link">Compare All Plans →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- 3. WHO WE ARE MEGA MENU -->
+          <li class="has-mega-menu" data-menu="about">
+            <a href="about-us.html" class="nav-item">Who We Are <i data-lucide="chevron-down" style="width:14px; height:14px;"></i></a>
+            <div class="mega-dropdown mega-about">
+              <div class="mega-grid" style="grid-template-columns: 1fr 1fr 1fr 1.2fr;">
+                <div class="mega-col">
+                  <span class="mega-col-title">WHO WE ARE</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li><a href="about-us.html" class="mega-link">About Us</a></li>
+                    <li><a href="our-team.html" class="mega-link">Our Team</a></li>
+                    <li><a href="our-story.html" class="mega-link">Our Story</a></li>
+                    <li><a href="thought-leadership.html" class="mega-link">Thought Leadership</a></li>
+                  </ul>
+                </div>
+
+                <div class="mega-col">
+                  <span class="mega-col-title" style="visibility: hidden;">CULTURE</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li><a href="life-at-webflikr.html" class="mega-link">Life at Webflikr</a></li>
+                    <li><a href="featured-clients.html" class="mega-link">Featured Clients</a></li>
+                    <li><a href="testimonials.html" class="mega-link">Testimonials</a></li>
+                    <li><a href="seo-results.html" class="mega-link">SEO Results</a></li>
+                  </ul>
+                </div>
+
+                <div class="mega-col">
+                  <span class="mega-col-title" style="visibility: hidden;">CREDENTIALS</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li><a href="web-design-portfolio.html" class="mega-link">Web Design Portfolio</a></li>
+                    <li><a href="seo-awards.html" class="mega-link">SEO Awards</a></li>
+                    <li><a href="media-coverages.html" class="mega-link">Media Coverages</a></li>
+                    <li><a href="our-locations.html" class="mega-link">Our Locations</a></li>
+                  </ul>
+                </div>
+
+                <div class="mega-col mega-featured-col">
+                  <div class="mega-card">
+                    <div class="mega-card-img-wrap">
+                      <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80" alt="SEO Software Tools" class="mega-card-img">
+                    </div>
+                    <div class="mega-card-content">
+                      <h4 class="mega-card-title">Top 16 of the Best SEO Tools & SEO Reporting Software</h4>
+                      <p class="mega-card-desc">To run your search engine marketing campaign successfully, you need to use advanced SEO tools.</p>
+                      <a href="blog.html" class="mega-card-link">Read more →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- 4. RESOURCES MEGA MENU -->
+          <li class="has-mega-menu" data-menu="resources">
+            <a href="blog.html" class="nav-item">Resources <i data-lucide="chevron-down" style="width:14px; height:14px;"></i></a>
+            <div class="mega-dropdown mega-resources">
+              <div class="mega-grid" style="grid-template-columns: 1fr 1fr 1fr 1.2fr;">
+                <div class="mega-col">
+                  <span class="mega-col-title">RESOURCES</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li>
+                      <a href="blog.html" class="mega-link">
+                        <div>
+                          <strong>Blog</strong>
+                          <p style="margin: 2px 0 0; font-size: 0.78rem; color: #64748b; font-weight: 400;">Actionable advice & tips on SEO & Digital Marketing.</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="case-studies.html" class="mega-link">
+                        <div>
+                          <strong>Case Studies</strong>
+                          <p style="margin: 2px 0 0; font-size: 0.78rem; color: #64748b; font-weight: 400;">Browse our SEO case studies and success stories.</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="reviews.html" class="mega-link">
+                        <div>
+                          <strong>Reviews</strong>
+                          <p style="margin: 2px 0 0; font-size: 0.78rem; color: #64748b; font-weight: 400;">No reviews are big or small for us. Feel free to submit one.</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mega-col">
+                  <span class="mega-col-title" style="visibility: hidden;">KNOWLEDGE</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li>
+                      <a href="free-guides.html" class="mega-link">
+                        <div>
+                          <strong>Free Guides</strong>
+                          <p style="margin: 2px 0 0; font-size: 0.78rem; color: #64748b; font-weight: 400;">Ready to use in-depth guides on SEO & Digital Marketing.</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="events.html" class="mega-link">
+                        <div>
+                          <strong>Events</strong>
+                          <p style="margin: 2px 0 0; font-size: 0.78rem; color: #64748b; font-weight: 400;">Checkout the industry events we speak and present in.</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="presentations.html" class="mega-link">
+                        <div>
+                          <strong>Presentations</strong>
+                          <p style="margin: 2px 0 0; font-size: 0.78rem; color: #64748b; font-weight: 400;">We share our knowledge and insights in these presentations.</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mega-col">
+                  <span class="mega-col-title" style="visibility: hidden;">INSIGHTS</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li>
+                      <a href="webinars.html" class="mega-link">
+                        <div>
+                          <strong>Webinars</strong>
+                          <p style="margin: 2px 0 0; font-size: 0.78rem; color: #64748b; font-weight: 400;">Our collection of expert webinars from SEO to content marketing.</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mega-col mega-featured-col">
+                  <div class="mega-card">
+                    <div class="mega-card-img-wrap">
+                      <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80" alt="Top SEO Tools" class="mega-card-img">
+                    </div>
+                    <div class="mega-card-content">
+                      <h4 class="mega-card-title">Top 16 of the Best SEO Tools & SEO Reporting Software</h4>
+                      <p class="mega-card-desc">To run your search engine marketing campaign successfully, you need to use advanced SEO tools.</p>
+                      <a href="blog.html" class="mega-card-link">Read more →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- 5. CAREER MEGA MENU -->
+          <li class="has-mega-menu" data-menu="career">
+            <a href="career.html" class="nav-item">Career <i data-lucide="chevron-down" style="width:14px; height:14px;"></i></a>
+            <div class="mega-dropdown mega-career">
+              <div class="mega-grid" style="grid-template-columns: 1.2fr 1.2fr 1fr; max-width: 1050px;">
+                <div class="mega-col">
+                  <span class="mega-col-title">CAREER</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li><a href="current-openings.html" class="mega-link">Current Openings <span class="tag-latest">Latest</span></a></li>
+                    <li><a href="career.html" class="mega-link">Career With Webflikr</a></li>
+                    <li><a href="benefits.html" class="mega-link">Benefits</a></li>
+                  </ul>
+                </div>
+
+                <div class="mega-col">
+                  <span class="mega-col-title" style="visibility: hidden;">CULTURE</span>
+                  <ul class="mega-sublinks" style="margin-top: 14px;">
+                    <li><a href="life-at-webflikr.html" class="mega-link">Life at Webflikr</a></li>
+                    <li><a href="our-values.html" class="mega-link">Our Values</a></li>
+                    <li><a href="recruitment-process.html" class="mega-link">Recruitment Process</a></li>
+                  </ul>
+                </div>
+
+                <div class="mega-col mega-featured-col">
+                  <div class="mega-card">
+                    <div class="mega-card-content">
+                      <h4 class="mega-card-title">Work with Global Leaders</h4>
+                      <p class="mega-card-desc">We offer remote flexibility, competitive compensation, and accelerated career growth.</p>
+                      <a href="current-openings.html" class="mega-card-link">View Open Positions →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="header-actions">
+        <a href="get-a-proposal.html" class="btn-proposal-header">
+          <span>GET A PROPOSAL</span>
+          <i data-lucide="arrow-up-right" style="width:16px; height:16px;"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- 3. HERO SECTION (MOBIKASA 3D SMARTPHONE SHOWCASE + SCHBANG EDITORIAL)      -->
+  <!-- ========================================================================= -->
+  <section class="hero-section" id="hero">
+
+    <div class="container hero-container">
+      <!-- Hero Left: Schbang & PageTraffic Copy -->
+      <div class="hero-content">
+        <div class="hero-pill-badge">
+          <span style="color:var(--brand-orange);">✦</span>
+          <span class="editable" data-cms-id="pt-hero-badge">#Top Rated SEO & AI Search Agency • Trusted Since 2002</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="editable" data-cms-id="pt-hero-h1-1">SEO Experience Born</span><br>
+          <span class="serif-italic editable" data-cms-id="pt-hero-h1-2">Before Algorithms.</span><br>
+          <span class="editable" data-cms-id="pt-hero-h1-3">Now Built for Google and AI.</span>
+        </h1>
+
+        <p class="hero-subtitle editable" data-cms-id="pt-hero-sub">
+          The platforms are changing, but the fundamentals of trust are not. Since 2002, we have helped 500+ businesses build enduring organic authority, technically accessible commerce platforms, and dominant visibility across search engines and conversational AI platforms (ChatGPT, Gemini, Perplexity).
+        </p>
+
+        <!-- 4 Core Pillars from PageTraffic -->
+        <div class="hero-pillars-grid">
+          <div class="hero-pillar-item">
+            <i data-lucide="check-circle" style="color: var(--accent-green); width: 20px; height: 20px;"></i>
+            <span>Search specialists, not generalists</span>
+          </div>
+          <div class="hero-pillar-item">
+            <i data-lucide="check-circle" style="color: var(--accent-green); width: 20px; height: 20px;"></i>
+            <span>Strategy and execution together</span>
+          </div>
+          <div class="hero-pillar-item">
+            <i data-lucide="check-circle" style="color: var(--accent-green); width: 20px; height: 20px;"></i>
+            <span>Transparent performance reporting</span>
+          </div>
+          <div class="hero-pillar-item">
+            <i data-lucide="check-circle" style="color: var(--accent-green); width: 20px; height: 20px;"></i>
+            <span>A 120+ person delivery team</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="get-a-proposal.html" class="btn btn-primary" style="padding: 16px 36px; font-size: 1rem;">
+            <span>REQUEST PROPOSAL</span>
+            <i data-lucide="arrow-up-right" style="width: 18px; height: 18px;"></i>
+          </a>
+          <a href="seo-plans.html" class="btn btn-secondary" style="padding: 16px 32px; font-size: 1rem;">
+            <i data-lucide="layers" style="width: 18px; height: 18px;"></i>
+            <span>EXPLORE 2026 PLANS</span>
+          </a>
+        </div>
+              <!-- Month-to-Month Sprint & AI Engine Strip (PageTraffic & Awwwards Standard) -->
+        <div class="hero-ai-ecosystem-bar">
+          <div class="hero-contract-guarantee">
+            <i data-lucide="shield-check" style="width: 15px; height: 15px; color: #10b981;"></i>
+            <span><strong>Month-to-Month Contracts</strong> • Zero Lock-In • 24 Yrs Standing</span>
+          </div>
+          <div class="hero-ai-engines-pill">
+            <span class="ai-pill-label">LLM COVERAGE:</span>
+            <span class="ai-engine-chip">SearchGPT</span>
+            <span class="ai-engine-chip">Google SGE</span>
+            <span class="ai-engine-chip">Perplexity</span>
+            <span class="ai-engine-chip">Claude 3.7</span>
+            <span class="ai-engine-chip">Gemini 2.5</span>
+          </div>
+        </div>
+</div>
+
+      <!-- Hero Right: POLISHED 3-ELEMENT 3D HERO SHOWCASE -->
+      <div class="hero-visual-col">
+        <div class="hero-3d-stage" id="hero3dStage" aria-label="Interactive 3D flagship smartphone and focused analytics showcase">
+          
+          <!-- Soft Ambient Orange Backlight Glow -->
+          <div class="hero-3d-ambient-glow" id="heroAmbientGlow"></div>
+
+          <!-- Main 3D Perspective Scene Container -->
+          <div class="hero-3d-scene" id="hero3dScene">
+            
+            <!-- PRIMARY FOCAL POINT: SEAMLESS 3D FLAGSHIP SMARTPHONE (ZERO RECTANGULAR EDGES) -->
+            <div class="phone-3d-chassis-seamless" id="phone3dChassis">
+              <img src="assets/3d/mobikasa-flagship-phone.png" alt="Mobikasa-Inspired 3D Headless eCommerce Flagship Smartphone" class="mobikasa-flagship-phone-img" loading="eager">
+            </div>
+
+            <!-- ELEMENT 1: UPPER-LEFT GOOGLE RANK #1 SHIELD BADGE (translateZ: 110px) -->
+            <div class="glass-card-3d polished-rank-badge" id="layerRankBadge" data-parallax-depth="0.08" data-tz="110">
+              <div class="rank-shield-icon">#1</div>
+              <div class="rank-shield-text">
+                <div class="rank-main-title">Google Rank #1</div>
+                <div class="rank-sub-title">Commercial Query • 48.2k Clicks</div>
+              </div>
+              <span class="live-pulse-dot"></span>
+            </div>
+
+            <!-- ELEMENT 2: UPPER-RIGHT ORGANIC REVENUE GROWTH CARD (translateZ: 90px) -->
+            <div class="glass-card-3d polished-revenue-card" id="layerRevenueCard" data-parallax-depth="0.065" data-tz="90">
+              <div class="polished-card-header">
+                <div>
+                  <div class="card-micro-label">ORGANIC REVENUE GROWTH</div>
+                  <div class="card-macro-val">$12.4M <span class="trend-badge-orange">+340% YoY</span></div>
+                </div>
+                <div class="spark-icon-wrap">
+                  <i data-lucide="trending-up" style="width: 16px; height: 16px; color: #ff5e1e;"></i>
+                </div>
+              </div>
+              <!-- Real Organic Curve SVG -->
+              <svg class="revenue-sparkline-svg" viewBox="0 0 200 48" fill="none">
+                <defs>
+                  <linearGradient id="revGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#ff5e1e" stop-opacity="0.3"/>
+                    <stop offset="50%" stop-color="#ff7b39" stop-opacity="0.9"/>
+                    <stop offset="100%" stop-color="#10b981" stop-opacity="1"/>
+                  </linearGradient>
+                </defs>
+                <path d="M 0 38 Q 35 44 70 26 T 140 18 T 200 6" stroke="url(#revGrad)" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="200" cy="6" r="4" fill="#10b981"/>
+              </svg>
+            </div>
+
+            <!-- ELEMENT 3: MOBIKASA SIGNATURE FROSTED GLASS CARD (BOTTOM-LEFT, OVERLAPPING PHONE) -->
+            <div class="glass-card-3d mobikasa-signature-card" id="layerAiCard" data-parallax-depth="0.075" data-tz="125">
+              <div class="mobi-card-header">
+                <div class="mobi-icon-box">
+                  <i data-lucide="sparkles" style="width: 18px; height: 18px; color: #ff5e1e;"></i>
+                </div>
+                <div class="mobi-arrow-btn">
+                  <i data-lucide="arrow-up-right" style="width: 16px; height: 16px; color: #ffffff;"></i>
+                </div>
+              </div>
+              <div class="mobi-card-content">
+                <h4 class="mobi-card-title">Headless 3D Commerce</h4>
+                <p class="mobi-card-desc">Sub-second Shopify Plus speed &amp; 98.6% AI citation authority.</p>
+              </div>
+              <div class="mobi-card-tags">
+                <span class="mobi-tag tag-cyan">ChatGPT</span>
+                <span class="mobi-tag tag-emerald">Gemini Active</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 2. TRUSTED ACCREDITATIONS & AUTHORITY MEDIA STRIP                         -->
+  <!-- ========================================================================= -->
+  <section class="accreditations-media-section" style="position: relative; z-index: 5;">
+    <div class="container accreditations-grid">
+      <div>
+        <div style="font-size: 0.8rem; font-weight: 800; color: #64748b; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 16px;">
+          ACCREDITED BY SEARCH LEADERS
+        </div>
+        <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+          <div class="trust-badge-pill">
+            <span class="trust-logo-g" style="color: #4285F4; font-weight: 900; font-size: 1.15rem;">G</span>
+            <div>
+              <div style="font-size: 0.82rem; font-weight: 800; color: #0f172a; line-height: 1.2;">Google Premier Partner</div>
+              <div style="font-size: 0.72rem; color: #10b981; font-weight: 700;">Verified ID 5391913525</div>
+            </div>
+          </div>
+          <div class="trust-badge-pill">
+            <span style="color: #005a9c; font-weight: 900; font-size: 0.95rem;">BBB</span>
+            <div>
+              <div style="font-size: 0.82rem; font-weight: 800; color: #0f172a; line-height: 1.2;">A+ Accredited</div>
+              <div style="font-size: 0.72rem; color: #64748b; font-weight: 600;">24 Yrs Standing</div>
+            </div>
+          </div>
+          <div class="trust-badge-pill">
+            <span style="color: #00a4ef; font-weight: 900; font-size: 0.95rem;">MS</span>
+            <div>
+              <div style="font-size: 0.82rem; font-weight: 800; color: #0f172a; line-height: 1.2;">Microsoft Partner</div>
+              <div style="font-size: 0.72rem; color: #64748b; font-weight: 600;">Advertising Elite</div>
+            </div>
+          </div>
+          <div class="trust-badge-pill">
+            <span style="color: #96bf48; font-weight: 900; font-size: 0.95rem;">Shopify</span>
+            <div>
+              <div style="font-size: 0.82rem; font-weight: 800; color: #0f172a; line-height: 1.2;">Shopify Plus</div>
+              <div style="font-size: 0.72rem; color: #10b981; font-weight: 700;">3D Headless Partner</div>
+            </div>
+          </div>
+        </div>
+      </div>
+<div>
+<div style="font-size: 0.8rem; font-weight: 800; color: #64748b; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 16px;">
+OUR SEARCH STRATEGIES FEATURED ON
+</div>
+<div style="display: flex; gap: 24px; align-items: center; flex-wrap: wrap;">
+<span style="font-family: serif; font-size: 1.25rem; font-weight: 800; color: #1e293b; letter-spacing: -0.02em;">Forbes</span>
+<span style="font-weight: 900; font-size: 1.15rem; color: #ef4444; font-style: italic;">Inc.</span>
+<span style="font-family: serif; font-size: 1.05rem; font-weight: 700; color: #334155;">HUFFPOST</span>
+<span style="font-weight: 800; font-size: 1.05rem; color: #0284c7;">Entrepreneur</span>
+<span style="font-weight: 700; font-size: 0.95rem; color: #475569;">Search Engine Watch</span>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<!-- ========================================================================= -->
+<!-- 5. KPI PERFORMANCE MATRIX (VERIFIED DATA)                                 -->
+<!-- ========================================================================= -->
+<!-- ========================================================================= -->
+<!-- 5. KPI MISSION CONTROL (DEEP NAVY HIGH-IMPACT IMMERSION)                 -->
+<!-- ========================================================================= -->
+<section class="kpi-mission-control-section" id="kpi-section">
+  <!-- Cybernetic Grid & Dual Ambient Glow Spheres -->
+  <div class="kpi-cosmic-glow glow-orange"></div>
+  <div class="kpi-cosmic-glow glow-cyan"></div>
+  <div class="kpi-grid-overlay"></div>
+
+  <div class="container">
+    <div class="kpi-control-header">
+      <div class="kpi-mission-pill">
+        <span class="pulse-beacon-emerald"></span>
+        <span>VERIFIED INSTITUTIONAL DATA • 2002–2026 AUDIT</span>
+      </div>
+      <h2 class="kpi-mission-title">The Architecture of Compounding Organic Wealth</h2>
+      <p class="kpi-mission-subtitle">
+        We eliminate agency attrition by delivering mathematical, transparent search revenue that outperforms paid ad spend.
+      </p>
+    </div>
+
+    <div class="kpi-cockpit-grid">
+      <!-- POD 1: RETENTION RATE (RADIAL GAUGE) -->
+      <div class="kpi-cockpit-card tilt-card" data-parallax-depth="0.05">
+        <div class="card-glass-specular"></div>
+        <div class="cockpit-card-header">
+          <div class="cockpit-badge badge-emerald">
+            <i data-lucide="shield-check" style="width: 14px; height: 14px;"></i>
+            <span>VERIFIED RETENTION</span>
+          </div>
+          <span class="cockpit-telemetry">NPS: +88</span>
+        </div>
+
+        <div class="cockpit-metric-row">
+          <div class="radial-gauge-mini">
+            <svg viewBox="0 0 44 44" class="radial-svg">
+              <circle cx="22" cy="22" r="18" class="circle-track" />
+              <circle cx="22" cy="22" r="18" class="circle-fill-emerald" stroke-dasharray="113" stroke-dashoffset="3" />
+            </svg>
+            <span class="radial-dot"></span>
+          </div>
+          <div class="cockpit-num-wrap">
+            <span class="cockpit-main-val color-white" data-counter-target="98.4" data-counter-suffix="%" data-counter-decimals="1">98.4%</span>
+          </div>
+        </div>
+
+        <h3 class="cockpit-label">Client Retention Rate</h3>
+        <p class="cockpit-desc">
+          Long-term enterprise partnerships based on compound organic search ROI and transparent attribution.
+        </p>
+
+        <div class="cockpit-card-footer">
+          <div class="cockpit-stars">★★★★★</div>
+          <span class="cockpit-chip chip-emerald">Zero Attrition Pods</span>
+        </div>
+      </div>
+
+      <!-- POD 2: REVENUE VELOCITY (FEATURED ORANGE NEON) -->
+      <div class="kpi-cockpit-card featured-cockpit tilt-card" data-parallax-depth="0.08">
+        <div class="card-glass-specular"></div>
+        <div class="cockpit-card-header">
+          <div class="cockpit-badge badge-orange">
+            <i data-lucide="zap" style="width: 14px; height: 14px;"></i>
+            <span>REVENUE ACCELERATION</span>
+          </div>
+          <span class="cockpit-telemetry telemetry-orange">TOP 1% GLOBAL</span>
+        </div>
+
+        <div class="cockpit-metric-row">
+          <div class="cockpit-num-wrap">
+            <span class="cockpit-main-val color-orange" data-counter-target="340" data-counter-prefix="+" data-counter-suffix="%" data-counter-decimals="0">+340%</span>
+          </div>
+          <!-- Real-time Sparkline SVG -->
+          <svg class="cockpit-sparkline-svg" viewBox="0 0 100 32" fill="none">
+            <path d="M 0 26 Q 30 28 55 14 T 100 4" stroke="#ff5e1e" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="100" cy="4" r="3.5" fill="#ff5e1e" class="spark-end-pulse"/>
+          </svg>
+        </div>
+
+        <h3 class="cockpit-label">Avg. Organic Revenue Lift</h3>
+        <p class="cockpit-desc">
+          Average documented revenue increase achieved across e-commerce and enterprise clients within the first 12 months.
+        </p>
+
+        <div class="cockpit-card-footer">
+          <span class="cockpit-chip chip-orange">12-Month Median</span>
+          <span class="cockpit-chip chip-translucent">Shopify Plus • Enterprise</span>
+        </div>
+      </div>
+
+      <!-- POD 3: GLOBAL ENTERPRISE SCALE -->
+      <div class="kpi-cockpit-card tilt-card" data-parallax-depth="0.05">
+        <div class="card-glass-specular"></div>
+        <div class="cockpit-card-header">
+          <div class="cockpit-badge badge-cyan">
+            <i data-lucide="globe-2" style="width: 14px; height: 14px;"></i>
+            <span>GLOBAL FOOTPRINT</span>
+          </div>
+          <span class="cockpit-telemetry">4 CONTROLLING HUBS</span>
+        </div>
+
+        <div class="cockpit-metric-row">
+          <div class="cockpit-num-wrap">
+            <span class="cockpit-main-val color-white" data-counter-target="500" data-counter-suffix="+" data-counter-decimals="0">500+</span>
+          </div>
+        </div>
+
+        <h3 class="cockpit-label">Enterprise Brands Scaled</h3>
+        <p class="cockpit-desc">
+          Serving category leaders across India, North America, the UK, Europe, and Australia since 2002.
+        </p>
+
+        <div class="cockpit-card-footer">
+          <div class="territory-tags-row">
+            <span class="territory-pill">US</span>
+            <span class="territory-pill">UK</span>
+            <span class="territory-pill">IN</span>
+            <span class="territory-pill">EU</span>
+            <span class="territory-pill">AU</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- POD 4: HERITAGE AUTHORITY -->
+      <div class="kpi-cockpit-card tilt-card" data-parallax-depth="0.05">
+        <div class="card-glass-specular"></div>
+        <div class="cockpit-card-header">
+          <div class="cockpit-badge badge-gold">
+            <i data-lucide="award" style="width: 14px; height: 14px;"></i>
+            <span>FOUNDATIONAL AUTHORITY</span>
+          </div>
+          <span class="cockpit-telemetry">SINCE 2002</span>
+        </div>
+
+        <div class="cockpit-metric-row">
+          <div class="cockpit-num-wrap">
+            <span class="cockpit-main-val color-gold" data-counter-target="24" data-counter-suffix="+ Yrs" data-counter-decimals="0">24+ Yrs</span>
+          </div>
+        </div>
+
+        <h3 class="cockpit-label">Continuous Leadership</h3>
+        <p class="cockpit-desc">
+          Navigating every major Google core update, mobile shift, and generative AI search revolution without a single structural penalty.
+        </p>
+
+        <div class="cockpit-card-footer">
+          <span class="cockpit-chip chip-gold">Pioneered Pre-Algorithm</span>
+          <span class="cockpit-chip chip-translucent">SGE & GEO 2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================================= -->
+<!-- 6. CORE SERVICES BENTO GRID (6 DEEP PERFORMANCE OFFERINGS)                -->
+<!-- ========================================================================= -->
+<!-- ========================================================================= -->
+  <!-- 3. MOBIKASA ASYMMETRIC BENTO SHOWCASE (DIGITAL SOLUTIONS & GROWTH)        -->
+  <!-- ========================================================================= -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="services-stage-panel">
+        <!-- Section Header -->
+        <div class="services-header-row">
+          <div>
+            <div class="section-pill" style="margin-bottom: 14px;">WE OFFER • FULL-STACK CAPABILITIES</div>
+            <h2 class="services-main-title">
+              Digital Solutions &amp; <span style="font-family: 'Playfair Display', Georgia, serif; font-style: italic; color: #ff5e1e;">Growth Strategy</span>
+            </h2>
+          </div>
+          <div class="services-header-right">
+            <p class="services-intro-text">
+              Engineered to capture high-intent search market share, maximize conversion rates, and dominate Generative AI answers.
+            </p>
+            <a href="get-a-proposal.html" class="btn-services-explore">
+              <span>Explore All Capabilities</span>
+              <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Asymmetric Bento Showcase Grid (Mobikasa & Stitch Standard) -->
+        <div class="mobikasa-bento-grid">
+          
+          <!-- Bento 1: Wide Featured Headless E-Commerce & 3D WebGL -->
+          <div class="bento-feature-wide tilt-card">
+            <div class="bento-content-col">
+              <span class="bento-badge badge-orange">FLAGSHIP ECOMMERCE</span>
+              <h3 class="bento-heading">Headless E-Commerce &amp; 3D Storefronts</h3>
+              <p class="bento-sub">Bespoke Shopify Plus, BigCommerce &amp; Next.js platforms engineered with sub-second speeds, 3D interactive visualizers, and seamless checkout optimization.</p>
+              <div class="bento-tags-row">
+                <span class="bento-tag">⚡ 0.6s LCP Speed</span>
+                <span class="bento-tag">🛍️ Shopify Plus Elite</span>
+                <span class="bento-tag">✨ 3D WebGL Configurator</span>
+              </div>
+              <a href="headless-ecommerce.html" class="bento-cta-link">
+                <span>View E-Commerce Architecture</span>
+                <i data-lucide="arrow-right" style="width: 15px; height: 15px;"></i>
+              </a>
+            </div>
+            <div class="bento-visual-preview">
+              <div class="storefront-preview-card">
+                <div class="preview-browser-bar">
+                  <span class="p-dot"></span><span class="p-dot"></span><span class="p-dot"></span>
+                  <span class="p-url">danetti.com/3d-commerce</span>
+                </div>
+                <div class="preview-store-body">
+                  <div class="preview-metric-pill">
+                    <span class="p-green-dot"></span> +38% Conversion Lift
+                  </div>
+                  <div class="preview-phone-cutout">
+                    <img src="assets/3d/mobikasa-flagship-phone.png" alt="Danetti 3D Storefront" class="preview-thumb-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento 2: AI & Generative Engine Optimization (GEO) -->
+          <div class="bento-card-square tilt-card">
+            <div class="bento-square-top">
+              <span class="bento-badge badge-purple">AEO / GEO 2026</span>
+              <div class="bento-icon-glow icon-glow-purple">
+                <i data-lucide="sparkles" style="width: 22px; height: 22px;"></i>
+              </div>
+            </div>
+            <h3 class="bento-heading">AI Search &amp; LLM Citations</h3>
+            <p class="bento-sub">Optimizing brand knowledge graphs and entity footprints so ChatGPT, Google Gemini, and Perplexity actively cite and recommend your products.</p>
+            <div class="ai-citation-pills">
+              <span class="ai-pill">ChatGPT Active</span>
+              <span class="ai-pill">Gemini Knowledge</span>
+              <span class="ai-pill">Perplexity #1</span>
+            </div>
+            <a href="ai-seo.html" class="bento-cta-link" style="margin-top: auto;">
+              <span>Explore AI Search Engine Optimization</span>
+              <i data-lucide="arrow-right" style="width: 15px; height: 15px;"></i>
+            </a>
+          </div>
+
+          <!-- Bento 3: Enterprise Technical SEO & Core Web Vitals -->
+          <div class="bento-card-square tilt-card">
+            <div class="bento-square-top">
+              <span class="bento-badge badge-cyan">TECHNICAL AUDIT</span>
+              <div class="bento-icon-glow icon-glow-cyan">
+                <i data-lucide="cpu" style="width: 22px; height: 22px;"></i>
+              </div>
+            </div>
+            <h3 class="bento-heading">Core Web Vitals &amp; Architecture</h3>
+            <p class="bento-sub">Eliminating crawl budget bottlenecks, unindexed faceted URLs, and JavaScript payload bloat on catalogs with 100k+ to 1M+ URLs.</p>
+            <div class="lighthouse-benchmark-card">
+              <div class="lh-score-circle">100</div>
+              <div class="lh-score-info">
+                <strong>Google Lighthouse Score</strong>
+                <span>Sub-0.8s LCP • 0 CLS</span>
+              </div>
+            </div>
+            <a href="enterprise-seo.html" class="bento-cta-link" style="margin-top: auto;">
+              <span>Inspect Technical Auditing</span>
+              <i data-lucide="arrow-right" style="width: 15px; height: 15px;"></i>
+            </a>
+          </div>
+
+          <!-- Bento 4: High-DA Editorial Authority & Digital PR -->
+          <div class="bento-card-square tilt-card">
+            <div class="bento-square-top">
+              <span class="bento-badge badge-emerald">EDITORIAL PR</span>
+              <div class="bento-icon-glow icon-glow-emerald">
+                <i data-lucide="award" style="width: 22px; height: 22px;"></i>
+              </div>
+            </div>
+            <h3 class="bento-heading">Digital PR &amp; Authority Ingestion</h3>
+            <p class="bento-sub">Data-driven editorial campaigns earning permanent contextual backlinks in top-tier tier-1 publications (Forbes, Business Insider, TechCrunch).</p>
+            <div class="pr-publication-strip">
+              <span class="pub-tag">Forbes</span>
+              <span class="pub-tag">TechCrunch</span>
+              <span class="pub-tag">Bloomberg</span>
+              <span class="pub-tag">Vogue</span>
+            </div>
+            <a href="link-building.html" class="bento-cta-link" style="margin-top: auto;">
+              <span>View Authority Campaigns</span>
+              <i data-lucide="arrow-right" style="width: 15px; height: 15px;"></i>
+            </a>
+          </div>
+
+          <!-- Bento 5: High-ROAS Performance Marketing & CRO -->
+          <div class="bento-feature-wide tilt-card bento-perf-card">
+            <div class="bento-content-col">
+              <span class="bento-badge badge-orange">CONVERSION ENGINE</span>
+              <h3 class="bento-heading">CRO &amp; High-ROAS Paid Growth</h3>
+              <p class="bento-sub">Relentless full-funnel CRO experimentation, heatmaps, and Google Performance Max campaigns generating 4.8x average verified return on ad spend.</p>
+              <div class="bento-tags-row">
+                <span class="bento-tag">📈 4.8x Verified ROAS</span>
+                <span class="bento-tag">🎯 Multi-Touch Attribution</span>
+                <span class="bento-tag">🧪 Bi-Weekly A/B Split Tests</span>
+              </div>
+              <a href="ppc.html" class="bento-cta-link">
+                <span>View Performance Marketing</span>
+                <i data-lucide="arrow-right" style="width: 15px; height: 15px;"></i>
+              </a>
+            </div>
+            <div class="bento-visual-preview perf-visual-preview">
+              <div class="perf-metric-chart-box">
+                <div class="chart-header-row">
+                  <span class="chart-label">VERIFIED ROAS ACCELERATION</span>
+                  <span class="chart-roi-stat">+340% YoY</span>
+                </div>
+                <svg class="chart-svg-line" viewBox="0 0 300 100" fill="none">
+                  <path d="M0 80 Q 75 75, 150 45 T 300 15" stroke="url(#perfGrad)" stroke-width="4" stroke-linecap="round"/>
+                  <circle cx="300" cy="15" r="6" fill="#ff5e1e"/>
+                  <defs>
+                    <linearGradient id="perfGrad" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fdba74"/>
+                      <stop offset="1" stop-color="#ff5e1e"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="chart-footer-row">
+                  <span>Baseline Q1</span>
+                  <span>Sprint Q2</span>
+                  <span style="color: #ff5e1e; font-weight: 800;">Scale Q4 Dominance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Enterprise Diagnostic Tool Stack (PageTraffic Reference Pattern) -->
+        <div class="services-enterprise-tools-bar">
+          <div class="tools-bar-label">POWERED BY ENTERPRISE DIAGNOSTIC &amp; SEARCH INTELLIGENCE TOOLS</div>
+          <div class="tools-badges-cluster">
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#ff5e1e;"></span> <strong>Ahrefs</strong> Enterprise</div>
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#ff642d;"></span> <strong>Semrush</strong> Guru</div>
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#52b043;"></span> <strong>Screaming Frog</strong> SEO Spider</div>
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#4285f4;"></span> <strong>Google</strong> Search Console</div>
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#0094ff;"></span> <strong>Moz Pro</strong> Suite</div>
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#10b981;"></span> <strong>DeepCrawl</strong> Enterprise</div>
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#96bf48;"></span> <strong>Shopify Plus</strong> Headless</div>
+            <div class="tool-badge-item"><span class="tool-dot" style="background:#990000;"></span> <strong>WebGL</strong> 3D Engine</div>
+          </div>
+        </div>
+</div></div></section>
+<!-- ========================================================================= -->
+<!-- 7. PROPRIETARY 4-STAGE METHODOLOGY (PAGETRAFFIC ARCHITECTURE)             -->
+<!-- ========================================================================= -->
+  <!-- ========================================================================= -->
+  <!-- 4. SEARCH AUTHORITY FRAMEWORK & 9-PHASE LIFECYCLE (CONNECTED ROADMAP)     -->
+  <!-- ========================================================================= -->
+  <section class="methodology-section" id="methodology">
+    <div class="container">
+      <div class="section-header-center">
+        <div class="section-pill">SYSTEMATIC METHODOLOGY</div>
+        <h2 class="section-title">The 4-Stage Search Authority Framework</h2>
+        <p class="section-desc">
+          Tested over 24 years across 5,000+ campaigns, our systematic methodology eliminates guesswork and delivers predictable, compounding organic market equity.
+        </p>
+      </div>
+
+      <!-- Connected 4-Stage Process Track -->
+      <div class="process-roadmap-wrap">
+        <div class="process-roadmap-line"></div>
+        <div class="process-grid-4">
+          
+          <!-- Stage 1 -->
+          <div class="process-step-card tilt-card">
+            <div class="step-badge-row">
+              <span class="step-num-pill">STAGE 01</span>
+              <div class="step-icon-wrap icon-orange">
+                <i data-lucide="search" style="width: 20px; height: 20px;"></i>
+              </div>
+            </div>
+            <h4 class="step-title">Architectural &amp; Algorithmic Audit</h4>
+            <p class="step-desc">Deconstruct your full technical stack, indexability, crawl tree, and backlink topology to expose structural growth blockers.</p>
+            <div class="step-deliverables">
+              <span>✓ Crawl budget modeling</span>
+              <span>✓ Core Web Vitals profiling</span>
+            </div>
+          </div>
+
+          <!-- Stage 2 -->
+          <div class="process-step-card tilt-card">
+            <div class="step-badge-row">
+              <span class="step-num-pill">STAGE 02</span>
+              <div class="step-icon-wrap icon-cyan">
+                <i data-lucide="network" style="width: 20px; height: 20px;"></i>
+              </div>
+            </div>
+            <h4 class="step-title">Intent Mapping &amp; Content Graph</h4>
+            <p class="step-desc">Map the full universe of high-intent search queries and conversational AI prompts to architect authoritative topic clusters.</p>
+            <div class="step-deliverables">
+              <span>✓ Semantic entity schemas</span>
+              <span>✓ Keyword intent clustering</span>
+            </div>
+          </div>
+
+          <!-- Stage 3 -->
+          <div class="process-step-card tilt-card">
+            <div class="step-badge-row">
+              <span class="step-num-pill">STAGE 03</span>
+              <div class="step-icon-wrap icon-purple">
+                <i data-lucide="award" style="width: 20px; height: 20px;"></i>
+              </div>
+            </div>
+            <h4 class="step-title">Authority &amp; Digital PR Ingestion</h4>
+            <p class="step-desc">Execute data-driven editorial digital PR to earn permanent contextual tier-1 backlinks that establish enduring domain authority.</p>
+            <div class="step-deliverables">
+              <span>✓ DA 60+ editorial links</span>
+              <span>✓ Thought leadership newsroom</span>
+            </div>
+          </div>
+
+          <!-- Stage 4 -->
+          <div class="process-step-card tilt-card">
+            <div class="step-badge-row">
+              <span class="step-num-pill">STAGE 04</span>
+              <div class="step-icon-wrap icon-emerald">
+                <i data-lucide="trending-up" style="width: 20px; height: 20px;"></i>
+              </div>
+            </div>
+            <h4 class="step-title">AI Citations &amp; Revenue Scaling</h4>
+            <p class="step-desc">Optimize entity footprints for LLM citation dominance across ChatGPT, Gemini, and SGE while driving compounding revenue.</p>
+            <div class="step-deliverables">
+              <span>✓ SGE featured source</span>
+              <span>✓ Multi-touch attribution</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 9-Phase Execution Matrix Header -->
+      <div style="margin-top: 80px; text-align: center;">
+        <div class="section-pill">9-PHASE LIFECYCLE</div>
+        <h3 style="font-size: clamp(1.8rem, 2.8vw, 2.4rem); font-weight: 800; color: #0f172a; margin: 12px 0;">From Baseline Audit to Global SERP Monopoly</h3>
+        <p style="color: #64748b; font-size: 1.05rem; max-width: 650px; margin: 0 auto 40px;">
+          Our battle-tested 9-phase search engineering sprints executed by dedicated senior delivery pods.
+        </p>
+      </div>
+
+      <!-- 3 High-Impact Strategic Sprint Dossiers (Replacing repetitive 9-box grid) -->
+      <div class="sprint-architecture-grid">
+        
+        <!-- SPRINT 1 -->
+        <div class="sprint-dossier-card tilt-card" data-parallax-depth="0.04">
+          <div class="sprint-card-header header-orange">
+            <div class="sprint-badge">
+              <span class="sprint-num">SPRINT 01</span>
+              <span class="sprint-weeks">WEEKS 1–4</span>
+            </div>
+            <h4 class="sprint-main-title">Algorithmic Forensics &amp; Baseline Diagnostics</h4>
+          </div>
+
+          <div class="sprint-phases-list">
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-orange"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 01</span> • Discovery &amp; Revenue Modeling</div>
+                <div class="phase-heading">Stakeholder Alignment &amp; Funnel Mapping</div>
+                <div class="phase-detail">KPI baseline calibration, revenue funnel deconstruction, and historical Google penalty screening.</div>
+              </div>
+            </div>
+
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-cyan"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 02</span> • Infrastructure Audit</div>
+                <div class="phase-heading">Technical Architecture &amp; Indexability</div>
+                <div class="phase-detail">Crawl budget optimization, Core Web Vitals remediation, sitemap overhauls, and canonical routing.</div>
+              </div>
+            </div>
+
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-emerald"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 03</span> • Market Intelligence</div>
+                <div class="phase-heading">Competitor Entity &amp; Gap Analysis</div>
+                <div class="phase-detail">Reverse-engineering competitor domain velocity, content depth, and conversational AI citation presence.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sprint-footer">
+            <span class="sprint-deliverable-chip">Deliverable: 60-Page Technical Blueprint</span>
+          </div>
+        </div>
+
+        <!-- SPRINT 2 -->
+        <div class="sprint-dossier-card tilt-card" data-parallax-depth="0.04">
+          <div class="sprint-card-header header-cyan">
+            <div class="sprint-badge">
+              <span class="sprint-num">SPRINT 02</span>
+              <span class="sprint-weeks">WEEKS 5–8</span>
+            </div>
+            <h4 class="sprint-main-title">Structural Content &amp; UX Refactoring</h4>
+          </div>
+
+          <div class="sprint-phases-list">
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-purple"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 04</span> • Intent Clustering</div>
+                <div class="phase-heading">Commercial Keyword Topology</div>
+                <div class="phase-detail">Semantic grouping of terms by transactional intent to eliminate cannibalization and capture high-intent buyers.</div>
+              </div>
+            </div>
+
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-rose"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 05</span> • Experience Refactoring</div>
+                <div class="phase-heading">On-Page, Schema &amp; Mobile UX</div>
+                <div class="phase-detail">Optimizing H1–H3 hierarchies, internal linking graphs, OpenGraph schemas, and frictionless mobile interactions.</div>
+              </div>
+            </div>
+
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-amber"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 06</span> • Content Engine</div>
+                <div class="phase-heading">Topical Authority Pillar Production</div>
+                <div class="phase-detail">Production of technical guides and pillar assets engineered for search algorithms &amp; LLM ingestion.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sprint-footer">
+            <span class="sprint-deliverable-chip">Deliverable: Authority Cluster Staging</span>
+          </div>
+        </div>
+
+        <!-- SPRINT 3 -->
+        <div class="sprint-dossier-card featured-sprint tilt-card" data-parallax-depth="0.06">
+          <div class="sprint-card-header header-emerald">
+            <div class="sprint-badge">
+              <span class="sprint-num">SPRINT 03</span>
+              <span class="sprint-weeks">WEEKS 9–12+</span>
+            </div>
+            <h4 class="sprint-main-title">Authority Ingestion &amp; AI Citations</h4>
+          </div>
+
+          <div class="sprint-phases-list">
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-indigo"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 07</span> • Digital PR</div>
+                <div class="phase-heading">Tier-1 Editorial PR &amp; Contextual Links</div>
+                <div class="phase-detail">Manual high-impact outreach to top industry publications for permanent editorial backlinks on DA 60+ domains.</div>
+              </div>
+            </div>
+
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-teal"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 08</span> • AI Optimization</div>
+                <div class="phase-heading">Generative Engine Optimization (GEO)</div>
+                <div class="phase-detail">Structuring knowledge graphs and Wikidata entity footprints so ChatGPT, Gemini, and Perplexity cite your brand.</div>
+              </div>
+            </div>
+
+            <div class="sprint-phase-row">
+              <div class="phase-indicator-dot dot-green"></div>
+              <div class="phase-row-content">
+                <div class="phase-meta"><span class="p-num">PHASE 09</span> • Compounding Scale</div>
+                <div class="phase-heading">Continuous CRO &amp; Attribution Dashboards</div>
+                <div class="phase-detail">Live keyword rank tracking, multi-touch revenue attribution, bounce reduction, and iterative sprint scaling.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sprint-footer">
+            <span class="sprint-deliverable-chip chip-highlight">Deliverable: SGE #1 &amp; Compound ROI</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- ========================================================================= -->
+<!-- 8. SCHBANG EDITORIAL WORK & FEATURED CASE STUDIES                         -->
+<!-- ========================================================================= -->
+
+<!-- ========================================================================= -->
+<!-- FOUNDER & LEADERSHIP SPOTLIGHT ("LAST AGENCY YOU EVER WORK WITH")         -->
+<!-- ========================================================================= -->
+<!-- ========================================================================= -->
+  <!-- 5. FOUNDER & LEADERSHIP SPOTLIGHT ("LAST AGENCY YOU EVER WORK WITH")       -->
+  <!-- ========================================================================= -->
+  <section class="founder-spotlight-section" id="founder-spotlight">
+    <div class="container">
+      <div class="founder-stage-panel">
+        <div class="founder-ambient-glow"></div>
+        <div class="founder-grid-row">
+          
+          <!-- Left: Founder Portrait Card -->
+          <div class="founder-portrait-col">
+            <div class="founder-card-chassis">
+              <div class="founder-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80" alt="Navneet Kaushal - Founder & Principal Strategist" class="founder-img">
+                <div class="founder-badge-floating">
+                  <span class="badge-dot-green"></span> 24+ Yrs Search Mastery
+                </div>
+              </div>
+              <div class="founder-meta-bar">
+                <div>
+                  <h3 class="founder-name">Navneet Kaushal</h3>
+                  <div class="founder-role">Founder &amp; Principal Search Architect</div>
+                </div>
+                <div class="founder-icon-seal">
+                  <i data-lucide="shield-check" style="width: 20px; height: 20px; color: #ff5e1e;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: The Founder Commitment -->
+          <div class="founder-content-col">
+            <div class="section-pill pill-warm-dark">
+              <span style="color: #ff5e1e;">✦</span> EXECUTIVE COMMITMENT
+            </div>
+            
+            <h2 class="founder-headline">
+              "We'll Be the Last Search Agency You Ever Need to Hire."
+            </h2>
+            
+            <div class="founder-quote-box">
+              "Search has always been about earning unshakeable trust. Since 2002, we've helped 500+ brands earn it wherever customers search, compare, and decide. Now, that includes generative AI platforms like ChatGPT, Gemini, and SGE. We don't sell transient clicks; we build compound market equity."
+            </div>
+            
+            <p class="founder-body-p">
+              Every enterprise account is directly steered by senior search directors who have steered brands through every major algorithm shift from Florida (2003) and Panda (2011) to the Generative AI Search Core Updates of 2026.
+            </p>
+            
+            <!-- High-Contrast Bulletproof Action Buttons -->
+            <div class="founder-btn-group">
+              <a href="get-a-proposal.html" class="founder-btn-primary">
+                <span>Schedule Strategic Briefing</span>
+                <i data-lucide="calendar" style="width: 17px; height: 17px;"></i>
+              </a>
+              <a href="our-story.html" class="founder-btn-secondary">
+                <span>Read Full Story Since 2002</span>
+                <i data-lucide="arrow-up-right" style="width: 17px; height: 17px;"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="work-section" id="case-studies">
+<div class="container">
+<div class="section-header-center">
+<div class="section-pill">PROVEN RESULTS</div>
+<h2 class="section-title">Transforming Vision Into Market Leadership</h2>
+<p class="section-subtitle">Real brands, real revenue, real market dominance. Explore how our multidisciplinary teams deliver quantifiable digital transformation.</p>
+</div>
+
+<!-- Luxury Compact 3D Case Studies Platform -->
+    <div class="case-studies-stage-wrap">
+      <div class="case-studies-pedestal"></div>
+      <div class="case-studies-grid-compact">
+        
+        <!-- Case 1: Danetti Luxury Living -->
+        <div class="luxury-case-card tilt-card">
+          <div class="case-visual-chassis">
+            <div class="case-browser-bar">
+              <div class="browser-dots">
+                <span class="b-dot red"></span>
+                <span class="b-dot yellow"></span>
+                <span class="b-dot green"></span>
+              </div>
+              <span class="browser-domain">danetti.com</span>
+              <span class="case-pill-float">Shopify Plus 3D</span>
+            </div>
+            <div class="case-img-wrap">
+              <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="Danetti Luxury Furniture" class="case-screen-img">
+            </div>
+          </div>
+          <div class="case-card-body">
+            <div class="case-tags-row">
+              <span class="case-tag tag-cyan">Shopify Plus</span>
+              <span class="case-tag tag-orange">3D WebGL</span>
+            </div>
+            <h3 class="case-title">Danetti Luxury Living</h3>
+            <p class="case-desc">Rebuilt their enterprise commerce ecosystem with interactive WebGL 3D customizers and faceted category SEO architecture.</p>
+            
+            <!-- High-Density Executive Metrics Strip -->
+            <div class="case-metric-strip">
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-orange">+340%</span>
+                <span class="metric-mini-lbl">Revenue Lift</span>
+              </div>
+              <div class="metric-mini-sep"></div>
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-emerald">+42%</span>
+                <span class="metric-mini-lbl">Conversion</span>
+              </div>
+              <div class="metric-mini-sep"></div>
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-cyan">0.7s</span>
+                <span class="metric-mini-lbl">Core LCP</span>
+              </div>
+            </div>
+
+            <div class="case-card-footer">
+              <a href="case-studies.html" class="case-action-btn">
+                <span>Explore Case Study</span>
+                <i data-lucide="arrow-up-right" style="width: 15px; height: 15px;"></i>
+              </a>
+              <span class="case-audit-badge">
+                <span class="badge-dot-live"></span> Verified Impact
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 2: CloudScale Global B2B Infrastructure -->
+        <div class="luxury-case-card tilt-card">
+          <div class="case-visual-chassis">
+            <div class="case-browser-bar">
+              <div class="browser-dots">
+                <span class="b-dot red"></span>
+                <span class="b-dot yellow"></span>
+                <span class="b-dot green"></span>
+              </div>
+              <span class="browser-domain">cloudscale.io</span>
+              <span class="case-pill-float">Enterprise SEO</span>
+            </div>
+            <div class="case-img-wrap">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="CloudScale B2B Infrastructure" class="case-screen-img">
+            </div>
+          </div>
+          <div class="case-card-body">
+            <div class="case-tags-row">
+              <span class="case-tag tag-emerald">Enterprise SEO</span>
+              <span class="case-tag tag-slate">12 Countries</span>
+            </div>
+            <h3 class="case-title">CloudScale Infrastructure</h3>
+            <p class="case-desc">Overhauled multi-region technical search architecture across 12 countries, capturing 4,280+ page-one commercial keyword rankings.</p>
+            
+            <!-- High-Density Executive Metrics Strip -->
+            <div class="case-metric-strip">
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-orange">1.4M+</span>
+                <span class="metric-mini-lbl">Organic Clicks</span>
+              </div>
+              <div class="metric-mini-sep"></div>
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-emerald">4,280</span>
+                <span class="metric-mini-lbl">Top 3 SERPs</span>
+              </div>
+              <div class="metric-mini-sep"></div>
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-cyan">$18.4M</span>
+                <span class="metric-mini-lbl">Attributed Funnel</span>
+              </div>
+            </div>
+
+            <div class="case-card-footer">
+              <a href="case-studies.html" class="case-action-btn">
+                <span>Explore Case Study</span>
+                <i data-lucide="arrow-up-right" style="width: 15px; height: 15px;"></i>
+              </a>
+              <span class="case-audit-badge">
+                <span class="badge-dot-live"></span> Verified Impact
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 3: Aura Couture Luxury Apparel -->
+        <div class="luxury-case-card tilt-card">
+          <div class="case-visual-chassis">
+            <div class="case-browser-bar">
+              <div class="browser-dots">
+                <span class="b-dot red"></span>
+                <span class="b-dot yellow"></span>
+                <span class="b-dot green"></span>
+              </div>
+              <span class="browser-domain">auracouture.com</span>
+              <span class="case-pill-float">Omnichannel PPC</span>
+            </div>
+            <div class="case-img-wrap">
+              <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" alt="Aura Couture Fashion" class="case-screen-img">
+            </div>
+          </div>
+          <div class="case-card-body">
+            <div class="case-tags-row">
+              <span class="case-tag tag-purple">Omnichannel PPC</span>
+              <span class="case-tag tag-orange">Predictive LTV</span>
+            </div>
+            <h3 class="case-title">Aura Couture Luxury</h3>
+            <p class="case-desc">Scaled direct-to-consumer search and paid performance across North America and Europe with first-party attribution modeling.</p>
+            
+            <!-- High-Density Executive Metrics Strip -->
+            <div class="case-metric-strip">
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-orange">4.8x</span>
+                <span class="metric-mini-lbl">Blended ROAS</span>
+              </div>
+              <div class="metric-mini-sep"></div>
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-emerald">+580%</span>
+                <span class="metric-mini-lbl">Shopping Impr.</span>
+              </div>
+              <div class="metric-mini-sep"></div>
+              <div class="metric-mini-item">
+                <span class="metric-mini-val color-cyan">+34%</span>
+                <span class="metric-mini-lbl">Repeat Buyers</span>
+              </div>
+            </div>
+
+            <div class="case-card-footer">
+              <a href="case-studies.html" class="case-action-btn">
+                <span>Explore Case Study</span>
+                <i data-lucide="arrow-up-right" style="width: 15px; height: 15px;"></i>
+              </a>
+              <span class="case-audit-badge">
+                <span class="badge-dot-live"></span> Verified Impact
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- REAL CLIENT SERP RANKINGS PROOF (PAGETRAFFIC VERIFIED CLIENT DATA) -->
+<div class="rankings-proof-card">
+<div class="rankings-table-header">
+<div>
+<span class="section-tag" style="margin-bottom: 6px;">VERIFIED SERP METRICS</span>
+<h3 class="rankings-table-title">Real Ranking Dominance Across High-Commercial Queries</h3>
+<p style="color: #64748b; font-size: 0.9rem; margin: 4px 0 0;">Live verified keyword movements across competitive e-commerce, pharma, and enterprise clients.</p>
+</div>
+<div style="display: flex; gap: 8px;">
+<span class="rank-pill-badge rank-pill-first"><i data-lucide="check-circle-2" style="width:14px;height:14px;"></i> 14,000+ Keywords Page 1</span>
+</div>
+</div>
+
+<div class="rankings-table-wrap">
+<table class="serp-proof-table">
+<thead>
+<tr>
+<th>Client / Domain</th>
+<th>Target Commercial Keyword</th>
+<th>Monthly Volume</th>
+<th>Baseline Rank</th>
+<th>Current Google Rank</th>
+<th>Traffic Growth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dentalkart.com</strong> (E-Commerce)</td>
+<td>dental products online</td>
+<td>45,000 / mo</td>
+<td style="color:#64748b;">Position #42</td>
+<td><span class="rank-pill-badge rank-pill-first">#1 on Google</span></td>
+<td style="color:#059669; font-weight:700;">+640% Organic GMV</td>
+</tr>
+<tr>
+<td><strong>LeaderBicycles.com</strong> (Retail &amp; D2C)</td>
+<td>cycles for men</td>
+<td>74,000 / mo</td>
+<td style="color:#64748b;">Position #54</td>
+<td><span class="rank-pill-badge rank-pill-top3">#3 on Google</span></td>
+<td style="color:#059669; font-weight:700;">+490% Revenue</td>
+</tr>
+<tr>
+<td><strong>Vibcare.co.in</strong> (Healthcare &amp; Pharma)</td>
+<td>pharma franchise india</td>
+<td>33,000 / mo</td>
+<td style="color:#64748b;">Position #68</td>
+<td><span class="rank-pill-badge rank-pill-first">#1 on Google</span></td>
+<td style="color:#059669; font-weight:700;">+820% Inbound Leads</td>
+</tr>
+<tr>
+<td><strong>ArcmaxArchitect.com</strong> (Architecture)</td>
+<td>resort design architects</td>
+<td>22,000 / mo</td>
+<td style="color:#64748b;">Position #38</td>
+<td><span class="rank-pill-badge rank-pill-top3">#2 on Google</span></td>
+<td style="color:#059669; font-weight:700;">+350% High-Ticket Deals</td>
+</tr>
+<tr>
+<td><strong>Ekprint.in</strong> (Commercial Printing)</td>
+<td>visiting card printing</td>
+<td>40,000 / mo</td>
+<td style="color:#64748b;">Position #49</td>
+<td><span class="rank-pill-badge rank-pill-top3">#3 on Google</span></td>
+<td style="color:#059669; font-weight:700;">+510% Repeat B2B Orders</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- ========================================================================= -->
+<!-- MOBIKASA-INSPIRED INTERACTIVE BEFORE / AFTER TRANSFORMATION SLIDER        -->
+<!-- ========================================================================= -->
+  <!-- ========================================================================= -->
+  <!-- LUXURY 3D ARCHITECTURAL TRANSFORMATION SHOWCASE (MOBIKASA + LUMERIXA GRADE)-->
+  <!-- ========================================================================= -->
+  <section class="transformation-showcase-section" id="transformation-showcase">
+    <!-- Floating 3D Background Torus Rings -->
+    <div class="trans-3d-bg-element torus-top-left" aria-hidden="true">
+      <img src="assets/3d/torus_left_photoreal.png" alt="" class="bg-torus-img torus-img-left">
+    </div>
+
+    <div class="trans-3d-bg-element torus-top-right" aria-hidden="true">
+      <img src="assets/3d/torus_right_photoreal.png" alt="" class="bg-torus-img torus-img-right">
+    </div>
+
+    <div class="container trans-content-container">
+      <!-- Section Header with High-Contrast Typography -->
+      <div class="trans-header">
+        <div class="trans-pill-badge">
+          <span class="badge-sparkle-dot"></span> ARCHITECTURAL TRANSFORMATION • 2026 BENCHMARK
+        </div>
+        <h2 class="trans-title">
+          The Anatomy of an <span class="trans-gradient-text">Enterprise Growth Overhaul</span>
+        </h2>
+        <p class="trans-subtitle">
+          Compare the quantifiable performance gap: slow monolithic legacy platforms vs. Webflikr's high-speed 3D headless search architecture.
+        </p>
+
+        <!-- Interactive View Switcher Tabs -->
+        <div class="trans-switch-dock">
+          <button class="trans-tab-btn active" data-view="split" id="btnViewSplit">
+            <i data-lucide="columns" style="width: 15px; height: 15px;"></i> Side-by-Side Dual View
+          </button>
+          <button class="trans-tab-btn" data-view="legacy" id="btnViewLegacy">
+            <span class="dot-red"></span> Legacy Monolith
+          </button>
+          <button class="trans-tab-btn" data-view="modern" id="btnViewModern">
+            <span class="dot-green"></span> Modernized 3D Headless
+          </button>
+        </div>
+      </div>
+
+      <!-- DUAL SHOWCASE CARDS CONTAINER WITH 3D PEDESTAL STAGE -->
+      <div class="trans-stage-wrapper">
+        
+        <!-- Center Connecting Energy Trail & Double Chevrons -->
+        <div class="trans-center-connector" id="transCenterConnector" aria-hidden="true">
+          <svg class="trans-energy-trail-svg" viewBox="0 0 200 80" fill="none">
+            <defs>
+              <linearGradient id="energyTrailGradRef" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="0%" stop-color="#fed7aa" stop-opacity="0.3"/>
+                <stop offset="50%" stop-color="#ff7a18" stop-opacity="0.95"/>
+                <stop offset="100%" stop-color="#34d399" stop-opacity="0.8"/>
+              </linearGradient>
+              <filter id="energyGlowRef" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="4" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+            <path d="M 0 50 C 60 50, 70 20, 130 35 S 180 15, 200 15" stroke="url(#energyTrailGradRef)" stroke-width="3.5" fill="none" filter="url(#energyGlowRef)"/>
+          </svg>
+          <div class="trans-center-disc">
+            <i data-lucide="chevrons-right" style="width: 22px; height: 22px; color: #ff5e1e;"></i>
+          </div>
+        </div>
+
+        <div class="trans-cards-grid" id="transCardsGrid">
+          
+          <!-- ========================================== -->
+          <!-- CARD 1: THE LEGACY MONOLITH (PRE-WEBFLIKR) -->
+          <!-- ========================================== -->
+          <div class="trans-card trans-card-legacy tilt-card" id="cardLegacy">
+            <div class="trans-card-reflection"></div>
+            <!-- Card Top Bar -->
+            <div class="trans-card-topbar">
+              <div class="trans-status-tag tag-legacy">
+                <span class="pulse-indicator pulse-red"></span> PRE-WEBFLIKR • LEGACY CMS
+              </div>
+              <div class="trans-impact-badge badge-red-glow">
+                -42% TRAFFIC LOSS
+              </div>
+            </div>
+
+            <!-- Card Header Info -->
+            <div class="trans-card-meta">
+              <h3 class="trans-card-title text-legacy-title">Monolithic Bloated Infrastructure</h3>
+              <p class="trans-card-desc">Legacy multi-plugin CMS with fragmented indexing, 4.8MB uncompressed payloads, and 0 structured AI schemas.</p>
+            </div>
+
+            <!-- 2-Column Split: 3D Visual Architecture Stack (Left) + Breakdown Checklist (Right) -->
+            <div class="trans-card-inner-split">
+              <!-- Left: 3D Legacy Server Architecture Illustration -->
+              <div class="trans-3d-visual-pane legacy-visual-pane">
+                <div class="photoreal-3d-wrap floating-3d-legacy">
+                  <img src="assets/3d/legacy_server_3d_photoreal.png" alt="3D Legacy Server Stack" class="photoreal-3d-img legacy-3d-img">
+                </div>
+              </div>
+
+              <!-- Right: Failure Items Checklist + Decline Chart -->
+              <div class="trans-breakdown-pane">
+                <div class="trans-check-list">
+                  <div class="trans-check-item item-fail">
+                    <span class="check-icon icon-fail">✕</span>
+                    <span class="check-text">Slow Core Web Vitals (LCP: 4.8s)</span>
+                  </div>
+                  <div class="trans-check-item item-fail">
+                    <span class="check-icon icon-fail">✕</span>
+                    <span class="check-text">Blocked Rendering (INP: 420ms)</span>
+                  </div>
+                  <div class="trans-check-item item-fail">
+                    <span class="check-icon icon-fail">✕</span>
+                    <span class="check-text">No AI Schema / Structured Data</span>
+                  </div>
+                  <div class="trans-check-item item-fail">
+                    <span class="check-icon icon-fail">✕</span>
+                    <span class="check-text">Fragmented Indexing</span>
+                  </div>
+                </div>
+
+                <!-- 12-Month Visibility Box -->
+                <div class="trans-graph-card graph-card-legacy">
+                  <div class="graph-card-header">
+                    <span class="graph-meta-title">12-MONTH ORGANIC VISIBILITY</span>
+                    <span class="graph-meta-badge badge-down">-42% Downward Trend</span>
+                  </div>
+                  <svg class="trans-mini-chart" viewBox="0 0 280 44" fill="none">
+                    <path d="M 10 10 L 70 18 L 130 26 L 190 32 L 270 40" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+                    <circle cx="10" cy="10" r="3" fill="#ef4444"/>
+                    <circle cx="70" cy="18" r="3" fill="#ef4444"/>
+                    <circle cx="130" cy="26" r="3" fill="#ef4444"/>
+                    <circle cx="190" cy="32" r="3" fill="#ef4444"/>
+                    <circle cx="270" cy="40" r="4" fill="#ef4444"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ======================================================== -->
+          <!-- CARD 2: THE MODERNIZED 3D HEADLESS (POST-WEBFLIKR)      -->
+          <!-- ======================================================== -->
+          <div class="trans-card trans-card-modern tilt-card" id="cardModern">
+            <div class="trans-card-reflection"></div>
+            <!-- Card Top Bar -->
+            <div class="trans-card-topbar">
+              <div class="trans-status-tag tag-modern">
+                <span class="pulse-indicator pulse-green"></span> WEBFLIKR MODERNIZED ARCHITECTURE
+              </div>
+              <div class="trans-impact-badge badge-green-glow">
+                +340% COMPOUND GMV
+              </div>
+            </div>
+
+            <!-- Card Header Info -->
+            <div class="trans-card-meta">
+              <h3 class="trans-card-title text-modern-title">High-Performance 3D Headless <span class="highlight-orange">Growth</span></h3>
+              <p class="trans-card-desc">Sub-second Shopify Plus / Next.js edge storefront with dynamic 3D WebGL spatial viewer and 100% LLM entity graph ingestion.</p>
+            </div>
+
+            <!-- 2-Column Split: 3D Modern Architecture Stack (Left) + Breakdown Checklist (Right) -->
+            <div class="trans-card-inner-split">
+              <!-- Left: 4-Layered 3D Modern Architecture Stack -->
+              <div class="trans-3d-visual-pane modern-visual-pane">
+                <div class="photoreal-3d-wrap floating-3d-modern">
+                  <img src="assets/3d/modern_tech_3d_photoreal.png" alt="3D Modernized Headless Architecture Stack" class="photoreal-3d-img modern-3d-img">
+                </div>
+              </div>
+
+              <!-- Right: Success Items Checklist + Revenue Curve -->
+              <div class="trans-breakdown-pane">
+                <div class="trans-check-list">
+                  <div class="trans-check-item item-pass">
+                    <span class="check-icon icon-pass">✓</span>
+                    <span class="check-text">Top 1% Global Core Web Vitals (LCP: 0.4s)</span>
+                  </div>
+                  <div class="trans-check-item item-pass">
+                    <span class="check-icon icon-pass">✓</span>
+                    <span class="check-text">Instant Edge Rendering (INP: 24ms)</span>
+                  </div>
+                  <div class="trans-check-item item-pass">
+                    <span class="check-icon icon-pass">✓</span>
+                    <span class="check-text">100% LLM Entity Graph Ingestion</span>
+                  </div>
+                  <div class="trans-check-item item-pass">
+                    <span class="check-icon icon-pass">✓</span>
+                    <span class="check-text">Interactive 3D Product Experience</span>
+                  </div>
+                </div>
+
+                <!-- 12-Month Revenue Curve Box -->
+                <div class="trans-graph-card graph-card-modern">
+                  <div class="graph-card-header">
+                    <span class="graph-meta-title">12-MONTH ORGANIC REVENUE</span>
+                    <span class="graph-meta-badge badge-up">+340% Compound Curve</span>
+                  </div>
+                  <svg class="trans-mini-chart" viewBox="0 0 280 44" fill="none">
+                    <defs>
+                      <linearGradient id="chartGradModernLine" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#ff7a18"/>
+                        <stop offset="50%" stop-color="#f59e0b"/>
+                        <stop offset="100%" stop-color="#10b981"/>
+                      </linearGradient>
+                      <filter id="nodeGlowModern" x="-30%" y="-30%" width="160%" height="160%">
+                        <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#10b981" flood-opacity="0.9"/>
+                      </filter>
+                    </defs>
+                    <path d="M 10 38 Q 90 34 160 22 T 270 8" stroke="url(#chartGradModernLine)" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="270" cy="8" r="4.5" fill="#10b981" filter="url(#nodeGlowModern)"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3D Podium Pedestal Platform Beneath Cards -->
+        <div class="trans-stage-pedestal" id="transStagePedestal" aria-hidden="true">
+          <div class="pedestal-disc-surface"></div>
+          <div class="pedestal-disc-bevel"></div>
+        </div>
+      </div>
+
+      <!-- BOTTOM METRICS BAR (SYMMETRICALLY SPLIT UNDER PEDESTAL) -->
+      <div class="trans-bottom-metrics-wrap" id="transBottomMetrics">
+        <!-- Legacy Metrics Left -->
+        <div class="trans-metrics-col-group group-legacy">
+          <div class="trans-metric-box box-legacy">
+            <span class="metric-label">CORE WEB VITALS</span>
+            <span class="metric-val text-red">4.8s LCP</span>
+          </div>
+          <div class="trans-metric-box box-legacy">
+            <span class="metric-label">AI OVERVIEWS</span>
+            <span class="metric-val text-muted">0 Citations</span>
+          </div>
+          <div class="trans-metric-box box-legacy">
+            <span class="metric-label">ALGORITHM RISK</span>
+            <span class="metric-val text-amber">Penalized</span>
+          </div>
+        </div>
+
+        <!-- Center Golden Divider Line -->
+        <div class="trans-metrics-center-divider" id="transMetricsDivider"></div>
+
+        <!-- Modern Metrics Right -->
+        <div class="trans-metrics-col-group group-modern">
+          <div class="trans-metric-box box-modern">
+            <span class="metric-label">CORE WEB VITALS</span>
+            <span class="metric-val text-emerald">0.4s LCP</span>
+          </div>
+          <div class="trans-metric-box box-modern">
+            <span class="metric-label">AI ANSWER ENGINE</span>
+            <span class="metric-val text-cyan">98.6% Rate</span>
+          </div>
+          <div class="trans-metric-box box-modern">
+            <span class="metric-label">GOOGLE SERP #1s</span>
+            <span class="metric-val text-orange">4,820+ #1s</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+<!-- ========================================================================= -->
+<!-- 9. COMPETITIVE ADVANTAGE MATRIX                                           -->
+<!-- ========================================================================= -->
+<!-- ========================================================================= -->
+<!-- TIERED RETAINER PLANS (PAGETRAFFIC COMPARISON ARCHITECTURE)                -->
+<!-- ========================================================================= -->
+<!-- ========================================================================= -->
+  <!-- 8. TRANSPARENT PRICING & GROWTH RETAINERS (MOBIKASA 3-TIER ARCHITECTURE)   -->
+  <!-- ========================================================================= -->
+  <section class="pricing-matrix-section" id="pricing">
+    <div class="container">
+      <div class="section-header-center">
+        <div class="section-pill">PREDICTABLE GROWTH RETAINERS</div>
+        <h2 class="section-title">Transparent Monthly Sprints. <span style="font-family: 'Playfair Display', Georgia, serif; font-style: italic; color: #ff5e1e;">Zero Lock-In.</span></h2>
+        <p class="section-desc">
+          Senior-led organic search and AI citation engineering. No junior hand-offs, no bloated retainers, cancel anytime with 30-day notice.
+        </p>
+        <!-- Month-to-Month Contract Guarantee Ribbon (PageTraffic Best Pattern) -->
+        <div class="month-to-month-guarantee-ribbon">
+          <i data-lucide="shield-check" style="width: 16px; height: 16px; color: #ff5e1e;"></i>
+          <span><strong>CONTRACT FREEDOM:</strong> MONTH-TO-MONTH SPRINT • ZERO LOCK-IN • 30-DAY NOTICE EXIT</span>
+        </div>
+
+
+        <!-- Interactive Billing Toggle Switcher -->
+        <div class="pricing-toggle-wrap">
+          <span class="pricing-toggle-label active" id="labelMonthly">Monthly Sprints</span>
+          <button class="pricing-toggle-switch" id="pricingToggleBtn" aria-label="Toggle quarterly billing">
+            <span class="pricing-toggle-knob"></span>
+          </button>
+          <span class="pricing-toggle-label" id="labelQuarterly">
+            Quarterly Retainer <span class="pricing-discount-pill">SAVE 15%</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- 3-Tier Luxury Pricing Grid on Showroom Pedestal -->
+      <div class="pricing-stage-wrap">
+        <div class="pricing-stage-pedestal"></div>
+        <div class="luxury-pricing-grid">
+        
+        <!-- Tier 1: Growth Sprint -->
+        <div class="luxury-price-card tilt-card">
+          <div class="price-card-header">
+            <span class="tier-pill tier-pill-slate">SMB &amp; EMERGING</span>
+            <h3 class="tier-name">Growth Sprint</h3>
+            <p class="tier-summary">For high-potential businesses establishing rank authority and fixing technical bottlenecks.</p>
+          </div>
+          <div class="price-figure-row">
+            <span class="currency-symbol">₹</span>
+            <span class="price-amount" data-monthly="35,000" data-quarterly="29,750">35,000</span>
+            <span class="price-cadence">/ month</span>
+          </div>
+          <div class="price-deliverables-title">WHAT'S INCLUDED:</div>
+          <ul class="luxury-features-list">
+            <li><i data-lucide="check" class="feat-icon"></i> <strong>25 Target Search Entities</strong></li>
+            <li><i data-lucide="check" class="feat-icon"></i> Core Web Vitals Sub-Second Fix</li>
+            <li><i data-lucide="check" class="feat-icon"></i> 15 High-DA Editorial Contextual Links</li>
+            <li><i data-lucide="check" class="feat-icon"></i> Technical Sitemap &amp; Canonical Overhaul</li>
+            <li><i data-lucide="check" class="feat-icon"></i> Bi-Weekly Video Sprints &amp; Reporting</li>
+          </ul>
+          <a href="get-a-proposal.html?plan=growth" class="btn-price-tier btn-tier-secondary">
+            <span>Start Growth Sprint</span>
+            <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+          </a>
+        </div>
+
+        <!-- Tier 2: Market Dominance (Featured / Most Popular) -->
+        <div class="luxury-price-card featured tilt-card">
+          <div class="featured-top-glow"></div>
+          <div class="price-card-header">
+            <div class="featured-badge-row">
+              <span class="tier-pill tier-pill-orange">MOST POPULAR • ROI LEADER</span>
+              <span class="live-pulse-badge"><span class="pulse-dot"></span> Pod Active</span>
+            </div>
+            <h3 class="tier-name">Market Dominance</h3>
+            <p class="tier-summary">Comprehensive multi-channel search authority and Generative AI citation dominance.</p>
+          </div>
+          <div class="price-figure-row">
+            <span class="currency-symbol color-orange">₹</span>
+            <span class="price-amount color-orange" data-monthly="75,000" data-quarterly="63,750">75,000</span>
+            <span class="price-cadence">/ month</span>
+          </div>
+          <div class="price-deliverables-title">WHAT'S INCLUDED:</div>
+          <ul class="luxury-features-list">
+            <li><i data-lucide="check" class="feat-icon feat-orange"></i> <strong>60 High-Intent Commercial Entities</strong></li>
+            <li><i data-lucide="check" class="feat-icon feat-orange"></i> <strong>AI &amp; GEO Engine Ingestion</strong> (ChatGPT, Gemini)</li>
+            <li><i data-lucide="check" class="feat-icon feat-orange"></i> 35 Tier-1 Editorial Contextual Backlinks/mo</li>
+            <li><i data-lucide="check" class="feat-icon feat-orange"></i> 3D Headless &amp; Interactive Storefront SEO</li>
+            <li><i data-lucide="check" class="feat-icon feat-orange"></i> Dedicated Senior Search Director Pod</li>
+            <li><i data-lucide="check" class="feat-icon feat-orange"></i> Real-Time Looker Revenue Attribution</li>
+          </ul>
+          <a href="get-a-proposal.html?plan=dominance" class="btn-price-tier btn-tier-primary">
+            <span>Claim Market Dominance</span>
+            <i data-lucide="zap" style="width: 16px; height: 16px;"></i>
+          </a>
+        </div>
+
+        <!-- Tier 3: Enterprise Authority -->
+        <div class="luxury-price-card tilt-card">
+          <div class="price-card-header">
+            <span class="tier-pill tier-pill-slate">GLOBAL &amp; E-COMMERCE</span>
+            <h3 class="tier-name">Enterprise Authority</h3>
+            <p class="tier-summary">For high-traffic national brands and multi-market e-commerce catalogs needing custom engineering.</p>
+          </div>
+          <div class="price-figure-row">
+            <span class="currency-symbol">₹</span>
+            <span class="price-amount" data-monthly="1,45,000" data-quarterly="1,23,250">1,45,000</span>
+            <span class="price-cadence">/ month</span>
+          </div>
+          <div class="price-deliverables-title">WHAT'S INCLUDED:</div>
+          <ul class="luxury-features-list">
+            <li><i data-lucide="check" class="feat-icon"></i> <strong>150+ Semantic Topic Clusters</strong> (Multi-Region)</li>
+            <li><i data-lucide="check" class="feat-icon"></i> Dedicated 5-Person Pod (Director, Dev, PR)</li>
+            <li><i data-lucide="check" class="feat-icon"></i> Programmatic SEO &amp; Multi-Catalog Crawl</li>
+            <li><i data-lucide="check" class="feat-icon"></i> Guaranteed 90+ Mobile Core Web Vitals</li>
+            <li><i data-lucide="check" class="feat-icon"></i> Thought Leadership Digital PR Newsroom</li>
+            <li><i data-lucide="check" class="feat-icon"></i> Weekly Boardroom Strategy &amp; 24/7 SLA</li>
+          </ul>
+          <a href="get-a-proposal.html?plan=enterprise" class="btn-price-tier btn-tier-secondary">
+            <span>Schedule Enterprise Briefing</span>
+            <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+          </a>
+        </div>
+
+      </div>
+      </div>
+
+      <!-- Enterprise Dedicated Squad Banner (Mobikasa Style) -->
+      <div class="enterprise-squad-banner">
+        <div class="squad-info">
+          <div class="squad-avatars">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Specialist" class="squad-avatar">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Specialist" class="squad-avatar">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80" alt="Specialist" class="squad-avatar">
+            <div class="squad-avatar-more">+120</div>
+          </div>
+          <div>
+            <h4 class="squad-title">Need a Custom Dedicated Search &amp; 3D Engineering Pod?</h4>
+            <p class="squad-desc">We embed cross-functional squads (SEO Architect, Full-Stack Dev, Digital PR Lead) directly into your Slack &amp; Jira workflows.</p>
+          </div>
+        </div>
+        <a href="get-a-proposal.html?plan=custom-pod" class="btn-squad-action">
+          <span>Build Custom Pod Scope</span>
+          <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 10. COMPETITIVE ADVANTAGE MATRIX (LUXURY SAAS FEATURE MATRIX)             -->
+  <!-- ========================================================================= -->
+  <section class="comparison-section" id="comparison">
+    <div class="container">
+      <div class="section-header-center">
+        <div class="section-pill">THE WEBFLIKR ADVANTAGE</div>
+        <h2 class="section-title">Why Industry Leaders Choose Us Over Others</h2>
+        <p class="section-desc">
+          How our integrated engineering and creative model outpaces traditional siloed agencies and isolated freelancers.
+        </p>
+      </div>
+
+      <!-- Luxury 3D Tactile Matrix Platform -->
+      <div class="tactile-matrix-container">
+        <div class="matrix-stage-pedestal"></div>
+        <div class="luxury-matrix-wrap">
+          <table class="luxury-matrix-table">
+            <thead>
+              <tr>
+                <th class="col-feature">Capability &amp; Architectural Standard</th>
+                <th class="col-webflikr">
+                  <div class="matrix-brand-badge-glow">
+                    <span class="badge-dot-emerald"></span> RECOMMENDED ENTERPRISE POD
+                  </div>
+                  <div class="matrix-title-row">
+                    <span class="matrix-brand-name">Webflikr Pod</span>
+                    <span class="matrix-brand-tag">In-House Squad</span>
+                  </div>
+                </th>
+                <th class="col-other">Solo Freelancer</th>
+                <th class="col-other">Legacy Monolith Agency</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="feature-title">
+                  <div class="feature-cell-content">
+                    <div class="feat-icon-box icon-orange"><i data-lucide="users" style="width: 18px; height: 18px;"></i></div>
+                    <div>
+                      <strong>Senior Architect Delivery</strong>
+                      <span>Direct steering by 24-year search veterans with zero junior delegation</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="cell-webflikr">
+                  <span class="badge-check-vibrant">
+                    <i data-lucide="check" style="width: 14px; height: 14px;"></i>
+                    120+ In-House Specialists
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Single point of failure
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Outsourced junior pool
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="feature-title">
+                  <div class="feature-cell-content">
+                    <div class="feat-icon-box icon-cyan"><i data-lucide="bot" style="width: 18px; height: 18px;"></i></div>
+                    <div>
+                      <strong>AI Search &amp; GEO Ingestion</strong>
+                      <span>Entity citations across ChatGPT, Gemini, Perplexity &amp; SGE</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="cell-webflikr">
+                  <span class="badge-check-vibrant">
+                    <i data-lucide="check" style="width: 14px; height: 14px;"></i>
+                    Full LLM Entity Graph
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Not covered / unsupported
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Outdated keyword stuffing
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="feature-title">
+                  <div class="feature-cell-content">
+                    <div class="feat-icon-box icon-purple"><i data-lucide="box" style="width: 18px; height: 18px;"></i></div>
+                    <div>
+                      <strong>3D WebGL &amp; Headless Commerce</strong>
+                      <span>Sub-second Shopify Plus, Next.js &amp; interactive 60 FPS configurators</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="cell-webflikr">
+                  <span class="badge-check-vibrant">
+                    <i data-lucide="check" style="width: 14px; height: 14px;"></i>
+                    Custom 60 FPS Interactive
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Cookie-cutter themes
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Bloated monolithic stacks
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="feature-title">
+                  <div class="feature-cell-content">
+                    <div class="feat-icon-box icon-emerald"><i data-lucide="line-chart" style="width: 18px; height: 18px;"></i></div>
+                    <div>
+                      <strong>Attribution &amp; Revenue BI</strong>
+                      <span>Transparent real-time Looker dashboards &amp; multi-touch attribution</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="cell-webflikr">
+                  <span class="badge-check-vibrant">
+                    <i data-lucide="check" style="width: 14px; height: 14px;"></i>
+                    Live Looker BI + Slack Pod
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Ad-hoc manual screenshots
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Monthly static vanity PDF
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="feature-title">
+                  <div class="feature-cell-content">
+                    <div class="feat-icon-box icon-amber"><i data-lucide="zap" style="width: 18px; height: 18px;"></i></div>
+                    <div>
+                      <strong>Core Web Vitals SLA Guarantee</strong>
+                      <span>Sub-second LCP, zero layout shifts &amp; guaranteed 90+ Lighthouse</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="cell-webflikr">
+                  <span class="badge-check-vibrant">
+                    <i data-lucide="check" style="width: 14px; height: 14px;"></i>
+                    Guaranteed 90+ Score SLA
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Zero SLA commitments
+                  </span>
+                </td>
+                <td class="cell-other">
+                  <span class="badge-deficit">
+                    <i data-lucide="x" style="width: 13px; height: 13px;"></i>
+                    Charged as costly add-on
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="matrix-trust-footer">
+            <div class="matrix-trust-item"><i data-lucide="shield-check" style="width: 16px; height: 16px; color: #ff5e1e;"></i> 100% Retainer Transparency</div>
+            <div class="matrix-trust-item"><i data-lucide="zap" style="width: 16px; height: 16px; color: #10b981;"></i> 0 Junior Hand-Offs Guarantee</div>
+            <div class="matrix-trust-item"><i data-lucide="award" style="width: 16px; height: 16px; color: #ff5e1e;"></i> 24+ Yrs Continuous Search Leadership</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ========================================================================= -->
+<!-- AGENCY LEGACY & MILESTONES TIMELINE (SINCE BEFORE SEO WAS A CATEGORY)      -->
+<!-- ========================================================================= -->
+  <!-- ========================================================================= -->
+  <!-- 11. AGENCY HERITAGE & 24-YEAR MILESTONES TIMELINE                         -->
+  <!-- ========================================================================= -->
+  <section class="milestones-timeline-section" id="milestones">
+    <div class="container">
+      <div class="section-header-center">
+        <div class="section-pill">AGENCY HERITAGE</div>
+        <h2 class="section-title">An Agency Since Before SEO Was a Category.</h2>
+        <p class="section-desc">
+          From the infancy of web search in 2002 to generative AI answer engines in 2026, trace our 24-year evolution of search dominance.
+        </p>
+      </div>
+
+      <!-- Glowing Timeline Track -->
+      <div class="timeline-interactive-wrap">
+        <div class="timeline-track-glow"></div>
+        <div class="timeline-cards-row">
+          
+          <div class="timeline-card tilt-card">
+            <div class="timeline-node-dot"></div>
+            <span class="timeline-year-pill">2002</span>
+            <h4 class="timeline-title">Agency Founded</h4>
+            <p class="timeline-desc">Established with a founding mission to help ambitious businesses acquire customers daily through pure organic search authority.</p>
+          </div>
+
+          <div class="timeline-card tilt-card">
+            <div class="timeline-node-dot"></div>
+            <span class="timeline-year-pill">2008</span>
+            <h4 class="timeline-title">Red Herring Asia</h4>
+            <p class="timeline-desc">Awarded the prestigious Red Herring 100 Asia Award for pioneering scalable search marketing technology and transparent rank reporting.</p>
+          </div>
+
+          <div class="timeline-card tilt-card">
+            <div class="timeline-node-dot"></div>
+            <span class="timeline-year-pill">2015</span>
+            <h4 class="timeline-title">5,000+ Sprints</h4>
+            <p class="timeline-desc">Surpassed 5,000 completed organic growth campaigns across North America, Europe, and Asia-Pacific with a 98.4% client retention rate.</p>
+          </div>
+
+          <div class="timeline-card tilt-card">
+            <div class="timeline-node-dot"></div>
+            <span class="timeline-year-pill">2021</span>
+            <h4 class="timeline-title">Upxano &amp; 3D Lab</h4>
+            <p class="timeline-desc">Deployed proprietary enterprise rank tracker Upxano and launched our 3D headless eCommerce engineering studio.</p>
+          </div>
+
+          <div class="timeline-card timeline-card-hero tilt-card">
+            <div class="timeline-node-dot active-pulse"></div>
+            <span class="timeline-year-pill pill-hero">2026</span>
+            <h4 class="timeline-title timeline-title-hero">Generative Engine AI</h4>
+            <p class="timeline-desc timeline-desc-hero">Pioneering Generative Engine Optimization (GEO) ensuring clients dominate AI answers on ChatGPT, Google Gemini, and Perplexity.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- ========================================================================= -->
+<!-- 10. TESTIMONIALS & TRUSTED REPUTATION                                     -->
+<!-- ========================================================================= -->
+<section class="testimonials-section">
+<div class="container">
+<div class="section-header-center">
+<div class="section-pill">CLIENT TESTIMONIALS</div>
+<h2 class="section-title">Trusted by Fast-Growing Global Brands</h2>
+<p class="section-subtitle">Verified feedback from Chief Marketing Officers, Founders, and E-Commerce Directors who partner with Webflikr.</p>
+</div>
+
+<div class="testimonials-grid">
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-quote">"Webflikr took our organic visibility from page 4 obscurity to owning the top 3 positions for every high-volume luxury keyword. Our organic e-commerce revenue quadrupled within 14 months."</p>
+<div class="testimonial-author-row">
+<img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Sarah Jenkins" class="author-avatar">
+<div>
+<div class="author-name">Sarah Jenkins</div>
+<div class="author-role">VP of Marketing, Danetti Living (UK)</div>
+</div>
+</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-quote">"The level of technical rigor Webflikr brings to enterprise indexing is unmatched. They resolved 100,000+ crawl errors and migrated our domain without losing a single ranking position."</p>
+<div class="testimonial-author-row">
+<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Marcus Thorne" class="author-avatar">
+<div>
+<div class="author-name">Marcus Thorne</div>
+<div class="author-role">Chief Technology Officer, CloudScale</div>
+</div>
+</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="testimonial-quote">"Their 3D design sensibilities coupled with relentless PPC attribution delivered our highest recorded Black Friday ROAS (5.2x). They are truly an extension of our executive growth team."</p>
+<div class="testimonial-author-row">
+<img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" alt="Elena Rodriguez" class="author-avatar">
+<div>
+<div class="author-name">Elena Rodriguez</div>
+<div class="author-role">Global Brand Director, Aura Couture</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========================================================================= -->
+<!-- 11. FAQ ACCORDION (PAGETRAFFIC AUTHENTIC KNOWLEDGE)                       -->
+<!-- ========================================================================= -->
+
+<!-- ========================================================================= -->
+<!-- TEAM SHOWCASE & RECRUITMENT CULTURE ("JOIN THE TEAM!")                    -->
+<!-- ========================================================================= -->
+<section class="team-culture-section" style="padding: 90px 0; background: #ffffff; border-bottom: 1px solid #e2e8f0;">
+<div class="container">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;">
+<!-- Left: Copy & Career CTA -->
+<div>
+<div class="section-pill" style="margin-bottom: 14px;">OUR PEOPLE &amp; CULTURE</div>
+<h2 style="font-size: clamp(2.2rem, 3.8vw, 3.2rem); font-weight: 800; color: #0f172a; line-height: 1.2; margin-bottom: 18px;">
+Join the Team! Build a World-Class Career in Search &amp; AI.
+</h2>
+<p style="color: #64748b; font-size: 1.1rem; line-height: 1.7; margin-bottom: 24px;">
+Behind every #1 Google ranking and multi-million-dollar organic growth surge is our multidisciplinary team of 120+ search architects, data engineers, and content strategists across New Delhi, Mumbai, London, and Chicago.
+</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 30px;">
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 18px;">
+<div style="font-size: 1.35rem; font-weight: 800; color: #0f172a;">120+ Specialists</div>
+<div style="font-size: 0.82rem; color: #64748b;">Full-time in-house engineering</div>
+</div>
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 18px;">
+<div style="font-size: 1.35rem; font-weight: 800; color: #10b981;">Top 1% Talent</div>
+<div style="font-size: 0.82rem; color: #64748b;">Continuous AI search training</div>
+</div>
+</div>
+<div style="display: flex; gap: 16px; flex-wrap: wrap;">
+<a href="current-openings.html" class="mobikasa-arrow-btn">
+<span>Explore All Open Positions</span>
+<span class="mobikasa-arrow-badge"><i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i></span>
+</a>
+<a href="life-at-webflikr.html" class="btn btn-outline-dark">Life at Webflikr</a>
+</div>
+</div>
+
+<!-- Right: Team Avatar Constellation Grid -->
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;">
+<img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+<img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+<img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+<img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+<img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+<img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80" alt="Specialist" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px;">
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- ========================================================================= -->
+<!-- THOUGHT LEADERSHIP & AGENCY INSIGHTS BLOG HUB                             -->
+<!-- ========================================================================= -->
+<section class="blog-hub-section" style="padding: 90px 0; background: #f8fafc; border-bottom: 1px solid #e2e8f0;">
+<div class="container">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 20px; margin-bottom: 44px;">
+<div>
+<div class="section-pill" style="margin-bottom: 12px;">THOUGHT LEADERSHIP</div>
+<h2 style="font-size: clamp(2.2rem, 3.8vw, 3.2rem); font-weight: 800; color: #0f172a; line-height: 1.2; margin: 0;">
+The Webflikr Intelligence Journal
+</h2>
+<p style="color: #64748b; font-size: 1.05rem; margin-top: 8px; margin-bottom: 0;">
+In-depth strategic analyses, algorithm breakdown guides, and generative AI search playbooks.
+</p>
+</div>
+<a href="blog.html" class="mobikasa-arrow-btn">
+<span>Explore All 200+ Articles</span>
+<span class="mobikasa-arrow-badge"><i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i></span>
+</a>
+</div>
+
+<!-- 4-Article Grid -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px;">
+<!-- Article 1 -->
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 20px rgba(15,23,42,0.04);">
+<img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80" alt="Mastering AI SEO" style="width: 100%; aspect-ratio: 16/10; object-fit: cover;">
+<div style="padding: 24px;">
+<span class="tag-pastel tag-pastel-cyan" style="margin-bottom: 12px;">AI Search 2026</span>
+<h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin: 10px 0; line-height: 1.4;">
+<a href="blog.html" style="color: inherit; text-decoration: none;">Mastering AI SEO: Generative Engine Optimization for ChatGPT &amp; Gemini</a>
+</h3>
+<p style="color: #64748b; font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px;">
+How to architect structured entity knowledge graphs and JSON-LD markup to capture citations in conversational AI interfaces.
+</p>
+<a href="blog.html" style="color: #ff5e1e; font-weight: 700; font-size: 0.88rem; text-decoration: none;">Read Full Guide &rarr;</a>
+</div>
+</div>
+
+<!-- Article 2 -->
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 20px rgba(15,23,42,0.04);">
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Enterprise SEO" style="width: 100%; aspect-ratio: 16/10; object-fit: cover;">
+<div style="padding: 24px;">
+<span class="tag-pastel tag-pastel-amber" style="margin-bottom: 12px;">Enterprise Architecture</span>
+<h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin: 10px 0; line-height: 1.4;">
+<a href="blog.html" style="color: inherit; text-decoration: none;">Mastering Enterprise SEO for 1M+ SKU Catalogs: The 2026 Blueprint</a>
+</h3>
+<p style="color: #64748b; font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px;">
+Solving crawl budget waste, dynamic faceted indexation, and international hreflang routing on headless platforms.
+</p>
+<a href="blog.html" style="color: #ff5e1e; font-weight: 700; font-size: 0.88rem; text-decoration: none;">Read Full Guide &rarr;</a>
+</div>
+</div>
+
+<!-- Article 3 -->
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 20px rgba(15,23,42,0.04);">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="SaaS SEO Growth" style="width: 100%; aspect-ratio: 16/10; object-fit: cover;">
+<div style="padding: 24px;">
+<span class="tag-pastel tag-pastel-emerald" style="margin-bottom: 12px;">B2B SaaS</span>
+<h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin: 10px 0; line-height: 1.4;">
+<a href="blog.html" style="color: inherit; text-decoration: none;">The SaaS Organic Inbound Engine: Balancing TOFU Content with BOFU Pipeline</a>
+</h3>
+<p style="color: #64748b; font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px;">
+Why generic traffic fails to generate demo bookings, and how to build high-converting commercial intent clusters.
+</p>
+<a href="blog.html" style="color: #ff5e1e; font-weight: 700; font-size: 0.88rem; text-decoration: none;">Read Full Guide &rarr;</a>
+</div>
+</div>
+
+<!-- Article 4 -->
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 20px rgba(15,23,42,0.04);">
+<img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80" alt="Ecommerce Website Costs" style="width: 100%; aspect-ratio: 16/10; object-fit: cover;">
+<div style="padding: 24px;">
+<span class="tag-pastel tag-pastel-rose" style="margin-bottom: 12px;">eCommerce Guide</span>
+<h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin: 10px 0; line-height: 1.4;">
+<a href="blog.html" style="color: inherit; text-decoration: none;">How Much Does an Enterprise Headless Storefront Cost in 2026?</a>
+</h3>
+<p style="color: #64748b; font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px;">
+A transparent cost and timeline breakdown across Shopify Plus, Next.js Commerce, BigCommerce, and custom 3D WebGL.
+</p>
+<a href="blog.html" style="color: #ff5e1e; font-weight: 700; font-size: 0.88rem; text-decoration: none;">Read Full Guide &rarr;</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="faq-section" id="faq">
+<div class="container">
+<div class="section-header-center">
+<div class="section-pill">FREQUENTLY ASKED QUESTIONS</div>
+<h2 class="section-title">Clear Answers to Critical Growth Questions</h2>
+<p class="section-subtitle">Everything you need to know about our service models, delivery timelines, AI optimizations, and commercial agreements.</p>
+</div>
+
+<div class="faq-list">
+<div class="faq-item">
+<button class="faq-question">
+<span>How does Webflikr optimize for AI Search (ChatGPT, Perplexity &amp; Gemini)?</span>
+<i data-lucide="chevron-down" class="faq-icon"></i>
+</button>
+<div class="faq-answer">
+<p>We build structured entity graphs, Schema.org semantic markups, and author authority profiles that Large Language Models prioritize. Rather than just matching keyword frequency, we position your brand as the primary factual citation in vector search indexes.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>How quickly can we expect measurable organic search results?</span>
+<i data-lucide="chevron-down" class="faq-icon"></i>
+</button>
+<div class="faq-answer">
+<p>Technical crawl errors and Core Web Vitals improvements typically yield indexation lift within 3 to 6 weeks. High-competition commercial keyword rankings and sustainable organic revenue growth typically compound substantially within months 3 to 6.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>Do you offer monthly retainers or long-term lock-in contracts?</span>
+<i data-lucide="chevron-down" class="faq-icon"></i>
+</button>
+<div class="faq-answer">
+<p>We offer flexible 3-month, 6-month, and annual performance agreements. We do not believe in lock-in contracts; our 98.4% client retention rate is earned every month through transparent ROI reporting and compounding performance.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">
+<span>What happens during the initial 30-day onboarding period?</span>
+<i data-lucide="chevron-down" class="faq-icon"></i>
+</button>
+<div class="faq-answer">
+<p>During Month 1, our technical architects complete a comprehensive code audit, fix urgent crawl budget bottlenecks, map your high-intent keyword universe, and deploy a real-time Looker Studio reporting dashboard tailored to your business KPIs.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========================================================================= -->
+<!-- 12. CONVERSION AUDIT PROPOSAL FUNNEL                                      -->
+<!-- ========================================================================= -->
+<!-- ========================================================================= -->
+<!-- INSTANT INTERACTIVE SEO DIAGNOSTIC SCANNER (PAGETRAFFIC LEAD MAGNET)       -->
+<!-- ========================================================================= -->
+  <!-- ========================================================================= -->
+  <!-- 16. INSTANT 60-SECOND TECHNICAL DOMAIN SCANNER (HIGH-TECH TERMINAL)       -->
+  <!-- ========================================================================= -->
+  <section class="instant-scanner-section" id="instant-scanner">
+    <div class="container">
+      <div class="scanner-stage-wrap">
+        <div class="scanner-stage-pedestal"></div>
+        <div class="scanner-terminal-box">
+        <!-- Terminal Header -->
+        <div class="terminal-bar">
+          <div class="term-dots">
+            <span class="dot-red"></span>
+            <span class="dot-yellow"></span>
+            <span class="dot-green"></span>
+          </div>
+          <span class="terminal-label">upxano-engine://realtime-serp-audit.v26</span>
+          <div class="terminal-status-live">
+            <span class="live-blink-dot"></span> LIVE SCANNER
+          </div>
+        </div>
+
+        <div class="terminal-inner-content">
+          <div class="section-pill" style="margin-bottom: 12px; background: rgba(255, 94, 30, 0.15); border-color: rgba(255, 94, 30, 0.35); color: #ff7b39;">
+            INSTANT SERP DIAGNOSTIC
+          </div>
+          <h2 class="scanner-heading">Test Your Website's Real Search Potential</h2>
+          <p class="scanner-subheading">
+            Enter your domain below to run a real-time diagnostic scan covering Core Web Vitals, crawl accessibility, and AI citation readiness.
+          </p>
+
+          <!-- Input Row -->
+          <form id="scannerForm" class="scanner-form-row">
+            <div class="scanner-input-group">
+              <i data-lucide="globe" style="width: 18px; height: 18px; color: #94a3b8;"></i>
+              <input type="url" id="scannerDomainInput" placeholder="https://yourbrand.com" value="https://danetti.com" required class="scanner-field">
+            </div>
+            <div class="scanner-input-group">
+              <i data-lucide="mail" style="width: 18px; height: 18px; color: #94a3b8;"></i>
+              <input type="email" id="scannerEmailInput" placeholder="corporate@yourbrand.com" value="growth@danetti.com" required class="scanner-field">
+            </div>
+            <button type="submit" id="scannerSubmitBtn" class="scanner-btn-submit btn-magnetic">
+              <span>RUN REAL-TIME AUDIT</span>
+              <i data-lucide="zap" style="width: 16px; height: 16px;"></i>
+            </button>
+          </form>
+
+          <!-- Real-Time Terminal Log Stream Container -->
+          <div id="scannerTerminalLogs" class="scanner-terminal-stream" style="display: none;"></div>
+
+          <!-- Holographic Diagnostic Results Card -->
+          <div id="scannerResultsCard" class="scanner-results-card" style="display: none;">
+            <div class="results-header-row">
+              <div class="results-title-group">
+                <span class="results-badge-pass">DIAGNOSTIC VERIFIED • 2026 BENCHMARK</span>
+                <h4 class="results-title">Algorithmic Search & AI Readiness Report</h4>
+              </div>
+              <a href="#proposal" class="btn btn-primary btn-results-download">
+                <span>DOWNLOAD 25-PAGE AUDIT (PDF)</span>
+                <i data-lucide="download" style="width: 16px; height: 16px;"></i>
+              </a>
+            </div>
+
+            <div class="results-gauges-grid">
+              <div class="gauge-card">
+                <div class="gauge-ring-val ring-emerald">98<span class="gauge-unit">/100</span></div>
+                <div class="gauge-label">Core Web Vitals</div>
+                <div class="gauge-sub">Sub-0.7s LCP • 0 CLS</div>
+              </div>
+
+              <div class="gauge-card">
+                <div class="gauge-ring-val ring-cyan">94.6<span class="gauge-unit">%</span></div>
+                <div class="gauge-label">AI Knowledge Ingestion</div>
+                <div class="gauge-sub">ChatGPT & Gemini Active</div>
+              </div>
+
+              <div class="gauge-card">
+                <div class="gauge-ring-val ring-orange">100<span class="gauge-unit">%</span></div>
+                <div class="gauge-label">Crawl Budget Efficiency</div>
+                <div class="gauge-sub">Zero 404 Leaks • Valid Schema</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live Audit Checklist Badges -->
+          <div class="scanner-checklist-badges">
+            <span><i data-lucide="check" style="width: 14px; height: 14px; color: #10b981;"></i> Core Web Vitals (LCP/INP/CLS)</span>
+            <span><i data-lucide="check" style="width: 14px; height: 14px; color: #10b981;"></i> SGE &amp; Gemini Knowledge Ingestion</span>
+            <span><i data-lucide="check" style="width: 14px; height: 14px; color: #10b981;"></i> Crawl Budget Waste &amp; 404 Leaks</span>
+            <span><i data-lucide="check" style="width: 14px; height: 14px; color: #10b981;"></i> Competitor Authority Gap</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- ========================================================================= -->
+<!-- MOBIKASA-INSPIRED FLOATING GLOBAL PERFORMANCE STATS PILL                  -->
+<!-- ========================================================================= -->
+<div class="floating-global-stats-wrap">
+<div class="container">
+<div class="floating-global-stats-pill">
+<div class="stats-pill-col">
+<div class="stats-pill-num">500+</div>
+<div class="stats-pill-label">Enterprise Clients Scaled</div>
+</div>
+<div class="stats-pill-col">
+<div class="stats-pill-num">24+</div>
+<div class="stats-pill-label">Years Search Mastery (2002)</div>
+</div>
+<div class="stats-pill-col">
+<div class="stats-pill-num">4,820+</div>
+<div class="stats-pill-label">Verified Google #1 SERPs</div>
+</div>
+<div class="stats-pill-col">
+<div class="stats-pill-num">$42M+</div>
+<div class="stats-pill-label">Attributed Client GMV Growth</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- ========================================================================= -->
+<!-- PAGETRAFFIC GLOBAL BRANCH OFFICES & INTERNATIONAL HUBS DIRECTORY          -->
+<!-- ========================================================================= -->
+  <!-- ========================================================================= -->
+  <!-- 17. STRATEGIC GLOBAL HUBS (INTERNATIONAL DELIVERY DIRECTORY)              -->
+  <!-- ========================================================================= -->
+  <section class="global-offices-section" id="global-hubs">
+    <div class="container">
+      <div class="section-header-center">
+        <div class="section-pill">GLOBAL PRESENCE</div>
+        <h2 class="section-title">Four Strategic Global Delivery Hubs.</h2>
+        <p class="section-desc">
+          Physical offices and enterprise search directors across premier commercial centers in India, the United Kingdom, and the United States.
+        </p>
+      </div>
+
+      <div class="global-hubs-grid">
+        <!-- Hub 1: Delhi -->
+        <div class="hub-card tilt-card">
+          <div class="hub-header-row">
+            <span class="hub-flag-circle">
+  <svg viewBox="0 0 36 36" width="32" height="32" style="border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.12);">
+    <path fill="#FF9933" d="M36 18c0-9.9-8.1-18-18-18S0 8.1 0 18s8.1 18 18 18 18-8.1 18-18z"/>
+    <path fill="#FFFFFF" d="M0 12h36v12H0z"/>
+    <path fill="#128807" d="M0 24h36c-2.3 7-8.8 12-16.5 12C11.8 36 5.3 31 3 24z"/>
+    <circle fill="#000080" cx="18" cy="18" r="3.5"/>
+  </svg>
+</span>
+            <span class="hub-role-badge badge-hq">GLOBAL HQ</span>
+          </div>
+          <h3 class="hub-city-name">New Delhi, India</h3>
+          <p class="hub-address">15F, Eros Corporate Tower, Nehru Place, New Delhi, 110019</p>
+          <div class="hub-tz-row">
+            <span class="live-pulse"></span> <span class="hub-clock-display" id="delhi-clock">--:--:--</span> <span style="margin-left:6px; font-size:0.78rem;">IST • Global Pod</span>
+          </div>
+          <a href="tel:+919212521444" class="hub-contact-link">
+            <i data-lucide="phone" style="width: 15px; height: 15px;"></i> +91 92125 21444
+          </a>
+        </div>
+
+        <!-- Hub 2: Mumbai -->
+        <div class="hub-card tilt-card">
+          <div class="hub-header-row">
+            <span class="hub-flag-circle">
+  <svg viewBox="0 0 36 36" width="32" height="32" style="border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.12);">
+    <path fill="#FF9933" d="M36 18c0-9.9-8.1-18-18-18S0 8.1 0 18s8.1 18 18 18 18-8.1 18-18z"/>
+    <path fill="#FFFFFF" d="M0 12h36v12H0z"/>
+    <path fill="#128807" d="M0 24h36c-2.3 7-8.8 12-16.5 12C11.8 36 5.3 31 3 24z"/>
+    <circle fill="#000080" cx="18" cy="18" r="3.5"/>
+  </svg>
+</span>
+            <span class="hub-role-badge badge-fin">FINANCIAL HUB</span>
+          </div>
+          <h3 class="hub-city-name">Mumbai, India</h3>
+          <p class="hub-address">Raheja Centre Point, 2nd Floor, 294 CST Road, Kalina, Santacruz (E), Mumbai, 400098</p>
+          <div class="hub-tz-row">
+            <span class="live-pulse"></span> <span class="hub-clock-display" id="mumbai-clock">--:--:--</span> <span style="margin-left:6px; font-size:0.78rem;">IST • Client Services</span>
+          </div>
+          <a href="tel:+919212521444" class="hub-contact-link">
+            <i data-lucide="phone" style="width: 15px; height: 15px;"></i> +91 92125 21444
+          </a>
+        </div>
+
+        <!-- Hub 3: London -->
+        <div class="hub-card tilt-card">
+          <div class="hub-header-row">
+            <span class="hub-flag-circle">
+  <svg viewBox="0 0 36 36" width="32" height="32" style="border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.12);">
+    <path fill="#00247D" d="M36 18c0-9.9-8.1-18-18-18S0 8.1 0 18s8.1 18 18 18 18-8.1 18-18z"/>
+    <path fill="#FFF" d="M36 15H21V0h-6v15H0v6h15v15h6V21h15z"/>
+    <path fill="#CF142B" d="M36 16.5H20.5V0h-5v16.5H0v3h15.5V36h5V19.5H36z"/>
+  </svg>
+</span>
+            <span class="hub-role-badge badge-eur">EUROPEAN HUB</span>
+          </div>
+          <h3 class="hub-city-name">London, United Kingdom</h3>
+          <p class="hub-address">2nd Floor Studio, 28 Poland St, Soho, London W1F 8QP, United Kingdom</p>
+          <div class="hub-tz-row">
+            <span class="live-pulse"></span> <span class="hub-clock-display" id="london-clock">--:--:--</span> <span style="margin-left:6px; font-size:0.78rem;">GMT • Digital PR</span>
+          </div>
+          <a href="tel:+442070978643" class="hub-contact-link">
+            <i data-lucide="phone" style="width: 15px; height: 15px;"></i> +44 20 7097 8643
+          </a>
+        </div>
+
+        <!-- Hub 4: Chicago -->
+        <div class="hub-card tilt-card">
+          <div class="hub-header-row">
+            <span class="hub-flag-circle">
+  <svg viewBox="0 0 36 36" width="32" height="32" style="border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.12);">
+    <path fill="#B22234" d="M36 18c0-9.9-8.1-18-18-18S0 8.1 0 18s8.1 18 18 18 18-8.1 18-18z"/>
+    <path fill="#FFF" d="M0 10h36v3H0zm0 6h36v3H0zm0 6h36v3H0z"/>
+    <path fill="#3C3B6E" d="M0 18c0-9.9 8.1-18 18-18v18H0z"/>
+    <circle fill="#FFF" cx="9" cy="9" r="2.5"/>
+  </svg>
+</span>
+            <span class="hub-role-badge badge-us">NORTH AMERICA HUB</span>
+          </div>
+          <h3 class="hub-city-name">Chicago, United States</h3>
+          <p class="hub-address">1024 N Western Ave, Chicago, IL 60622, United States</p>
+          <div class="hub-tz-row">
+            <span class="live-pulse"></span> <span class="hub-clock-display" id="chicago-clock">--:--:--</span> <span style="margin-left:6px; font-size:0.78rem;">CST • Partnerships</span>
+          </div>
+          <a href="tel:+18007187603" class="hub-contact-link">
+            <i data-lucide="phone" style="width: 15px; height: 15px;"></i> +1 (800) 718-7603
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="cta-audit-section" id="proposal" style="position: relative; overflow: hidden;">
+<!-- Schbang Interactive Fluid Particle Wave Canvas -->
+<canvas id="ctaParticleCanvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; opacity: 0.65;"></canvas>
+<div class="container">
+<div class="audit-grid">
+<div>
+<div class="section-pill" style="background: rgba(255,90,31,0.1); border-color: rgba(255,90,31,0.3); color:#FF5A1F;">GET YOUR GROWTH BLUEPRINT</div>
+<h2 style="font-family: var(--font-display); font-size: clamp(2.4rem, 4vw, 3.4rem); font-weight: 800; line-height: 1.15; margin-bottom: 20px; color: #101B35 !important;">
+Ready to Outrank Competitors &amp; Own Your Market?
+</h2>
+<p style="font-size: 1.1rem; color: #475569; line-height: 1.7; margin-bottom: 30px;">
+Receive an exhaustive 25-page technical search and architecture audit conducted by our principal strategists within 48 business hours. Completely confidential and free of charge.
+</p>
+<div style="display: flex; gap: 24px; color: #334155; font-size: 0.95rem; font-weight: 600;">
+<div style="display:flex; align-items:center; gap:8px;"><i data-lucide="shield-check" style="color:var(--brand-orange)"></i> NDA Protected</div>
+<div style="display:flex; align-items:center; gap:8px;"><i data-lucide="clock" style="color:var(--brand-orange)"></i> 48-Hour Turnaround</div>
+<div style="display:flex; align-items:center; gap:8px;"><i data-lucide="award" style="color:var(--brand-orange)"></i> Senior Architect Review</div>
+</div>
+</div>
+
+<div class="audit-card-form">
+<h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; margin-bottom: 6px; color: #0f172a;">Claim Free Technical Audit</h3>
+<p style="font-size: 0.88rem; color: #64748b; margin-bottom: 24px;">Enter your details to receive our comprehensive diagnostic report.</p>
+
+<form action="get-a-proposal.html" method="GET">
+<div class="audit-input-group">
+<label class="audit-label">Your Website URL</label>
+<input type="url" required class="audit-input" placeholder="https://yourbrand.com">
+</div>
+
+<div class="audit-input-group">
+<label class="audit-label">Business Email</label>
+<input type="email" required class="audit-input" placeholder="you@company.com">
+</div>
+
+<div class="audit-input-group">
+<label class="audit-label">Primary Objective</label>
+<select class="audit-input" style="background:#fff;">
+<option>Enterprise SEO &amp; Organic Rankings</option>
+<option>Headless E-Commerce 3D Storefront</option>
+<option>AI Search Engine Optimization (AEO)</option>
+<option>High-ROAS Paid Performance (PPC)</option>
+</select>
+</div>
+
+<button type="submit" class="btn btn-primary" style="width:100%; padding:15px; font-size:1rem; margin-top:10px;">
+<span>GET FREE AUDIT &amp; PROPOSAL</span>
+<i data-lucide="arrow-right" style="width:18px; height:18px;"></i>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========================================================================= -->
+<!-- 13. COMPREHENSIVE AGENCY FOOTER                                           -->
+<!-- ========================================================================= -->
+<footer class="site-footer">
+<div class="container">
+<div class="footer-top-grid">
+<div>
+<img src="logo.svg?v=2" alt="WEBFLIKR." style="height: 38px; margin-bottom: 20px;">
+<p style="font-size: 0.9rem; line-height: 1.7; color: #94a3b8; margin-bottom: 24px;">
+Webflikr is a premier global digital agency uniting deep technical search authority, 3D headless e-commerce, and generative AI search architecture.
+</p>
+<div style="font-size: 0.85rem; color: #cbd5e1; display:flex; flex-direction:column; gap:8px;">
+<div><strong style="color:#fff;">Global Hubs:</strong> New Delhi &bull; Mumbai &bull; London &bull; Chicago</div>
+<div><strong style="color:#fff;">Inquiries:</strong> corporate@webflikr.com</div>
+</div>
+</div>
+
+<div>
+<h5 class="footer-col-title">Digital Marketing</h5>
+<div class="footer-links">
+<a href="seo-services.html" class="footer-link">SEO Services</a>
+<a href="ecommerce-seo.html" class="footer-link">Ecommerce SEO</a>
+<a href="enterprise-seo.html" class="footer-link">Enterprise SEO</a>
+<a href="ai-seo.html" class="footer-link">AI SEO (2026)</a>
+<a href="ppc-services.html" class="footer-link">PPC Management</a>
+<a href="app-store-optimization.html" class="footer-link">App Store Optimization</a>
+</div>
+</div>
+
+<div>
+<h5 class="footer-col-title">Plans &amp; Packages</h5>
+<div class="footer-links">
+<a href="seo-plans.html" class="footer-link">SEO Plans &amp; Pricing</a>
+<a href="local-seo-plans.html" class="footer-link">Google Map Local Plans</a>
+<a href="ecommerce-seo-plans.html" class="footer-link">Ecommerce SEO Plans</a>
+<a href="ppc-plans.html" class="footer-link">Performance PPC Plans</a>
+<a href="social-media-plans.html" class="footer-link">Social Media Plans</a>
+</div>
+</div>
+
+
+        <div>
+          <h5 class="footer-col-title">Delivery Hubs</h5>
+          <div class="footer-links">
+            <span class="footer-link">New Delhi HQ (Eros Tower)</span>
+            <span class="footer-link">Mumbai (Raheja Centre)</span>
+            <span class="footer-link">London (28 Poland St)</span>
+            <span class="footer-link">Chicago (1024 N Western)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>&copy; 2002&ndash;2026 Webflikr Search Engineering Pvt. Ltd. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="seo-results.html">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Three.js & GSAP Animation Engines (Cloudflare / cdnjs) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="interactive-3d.js"></script>
+  <script src="app.js?v=1794800580"></script>
+</body>
+</html>

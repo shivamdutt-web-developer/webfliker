@@ -1,0 +1,42 @@
+{
+  "index.html": {
+    "dns_time": 0,
+    "ttfb": 46,
+    "dom_interactive": 2564,
+    "dom_complete": 3140,
+    "load_event": 3141,
+    "total_resources": 30
+  },
+  "seo-services.html": {
+    "dns_time": 0,
+    "ttfb": 16,
+    "dom_interactive": 367,
+    "dom_complete": 384,
+    "load_event": 385,
+    "total_resources": 12
+  },
+  "ecommerce-seo.html": {
+    "dns_time": 0,
+    "ttfb": 16,
+    "dom_interactive": 318,
+    "dom_complete": 333,
+    "load_event": 333,
+    "total_resources": 13
+  },
+  "plans.html": {
+    "dns_time": 0,
+    "ttfb": 2,
+    "dom_interactive": 157,
+    "dom_complete": 273,
+    "load_event": 273,
+    "total_resources": 12
+  },
+  "case-studies.html": {
+    "dns_time": 0,
+    "ttfb": 3,
+    "dom_interactive": 132,
+    "dom_complete": 210,
+    "load_event": 210,
+    "total_resources": 12
+  }
+}
